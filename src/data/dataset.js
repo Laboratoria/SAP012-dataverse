@@ -1,378 +1,485 @@
 export default [
+
+
   {
-    "id": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
+    "id": "cardcaptor-sakura",
+    "name": "Cardcaptor Sakura",
+    "shortDescription": ["Comédia", "Aventura"],
+    "description": "Com as cartas de Clow sob controle, Sakura inicia o sétimo ano. Quando anomalias surgem, ela, com a chave de seus sonhos, embarca em uma nova jornada para coletar cartas mágicas.",
+    "imageUrl": "/assets/cardcaptor-sakura.jpg",
     "facts": {
-      "yearOfBirth": "1815",
-      "yearOfDeath": "1852",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
+      "creator": ["CLAMP"],
+      "producer": ["Eizo Kondo"],
+      "studio": ["Madhouse"]
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
+      "seasons": 1,
+      "episodes": 22,
+      "classification": "L",
+      "assessment": 4.8,
+      "streaming": "Crunchyroll",
+      "song": ["Catch You Catch Me (interpretada por Gumi)"]
     }
   },
   {
-    "id": "emmy-noether",
-    "name": "Emmy Noether",
-    "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-    "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
+    "id": "yu-yu-hakusho",
+    "name": "Yu Yu Hakusho",
+    "shortDescription": ["Ação", "Aventura", "Comédia Dramática", "Sobrenatural"],
+    "description": "Yusuke Urameshi, delinquente de 14 anos, morre ao salvar outro e ganha uma segunda chance como Detetive Espiritual, combatendo demônios em uma vida transformada.",
+    "imageUrl": "/assets/yu-yu-hakusho.jpg",
     "facts": {
-      "yearOfBirth": "1882",
-      "yearOfDeath": "1935",
-      "birthPlace": "Erlangen, Alemania",
-      "mainField": "Matemáticas"
+      "creator": ["Yoshihiro Togashi"],
+      "producer": ["Yoshihiro Togashi"],
+      "studio": ["Pierrot"]
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
+      "seasons": 1,
+      "episodes": 112,
+      "classification": "A16",
+      "assessment": 4.8,
+      "streaming": "Crunchyroll",
+      "song": ["Hohoemi no Bakudan(interpretado grupo Mawatari Matsuko)"]
     }
   },
   {
-    "id": "hypatia-de-alejandria",
-    "name": "Hypatia de Alejandría",
-    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
+    "id": "death-note",
+    "name": "Death Note",
+    "shortDescription": ["Suspense", "Sobrenatural", "Psicológico"],
+    "description": "Light Yagami, aluno exemplar e entediado, tem sua vida transformada quando um Shinigami lhe concede um letal caderno capaz de matar qualquer pessoa desejada.",
+    "imageUrl": "/assets/death-note.jpg",
     "facts": {
-      "yearOfBirth": "circa 360",
-      "yearOfDeath": "415",
-      "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
+      "creator": ["Tsugumi Ohba"],
+      "producer": ["Tetsuro Araqui"],
+      "studio": ["Madhouse"]
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
+      "seasons": 1,
+      "episodes": 37,
+      "classification": "A16",
+      "assessment": 4.8,
+      "streaming": "Netflix",
+      "song": ["the WORLD(interpretada banda japonesa Nightmare)"]
     }
   },
   {
-    "id": "marjorie-lee-browne",
-    "name": "Marjorie Lee Browne",
-    "shortDescription": "Matemática, contribuyó a la teoría de números.",
-    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
+    "id": "demon-slayer",
+    "name": "Demon Slayer",
+    "shortDescription": ["Ação", "Fantasia Sombria", "Artes Marciais"],
+    "description": "No Japão da era Taisho, Tanjiro busca vingança quando sua família é massacrada por demônios. Determinado, ele se torna um caçador de demônios para salvar sua irmã Nezuko, transformada por essas forças sombrias. Uma história de redenção e tragédia se desenrola.",
+    "imageUrl": "/assets/demon-slayer.jpg",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "1979",
-      "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
+      "creator": ["Koyoharu Gotōge"],
+      "producer": ["Yuma Takahash"],
+      "studio": ["Shueisha"]
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
+      "seasons": 5,
+      "episodes": 56,
+      "classification": "A14",
+      "assessment": 4.9,
+      "streaming": "Netflix",
+      "song": ["Gurenge(interpretada LiSA)"]
     }
   },
   {
-    "id": "shakuntala-devi",
-    "name": "Shakuntala Devi",
-    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
-    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
+    "id": "lycoris-recoil",
+    "name": "Lycoris Recoil",
+    "shortDescription": ["Ação"],
+    "description": "Lycoris, organização de garotas combatentes ao crime, liderada por Chisato e Takina enfrenta desafios enquanto equilibra suas vidas normais e suas missões secretas no café.",
+    "imageUrl": "/assets/lycoris-recoil.jpg",
     "facts": {
-      "yearOfBirth": "1929",
-      "yearOfDeath": "2013",
-      "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
+      "creator": ["Spider Lily e Asaura"],
+      "producer": ["Atsuhiro Iwakami", "Masayuki Nishide"],
+      "studio": ["A-1 Pictures"]
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+      "seasons": 1,
+      "episodes": 13,
+      "classification": "A14",
+      "assessment": 4.8,
+      "streaming": "Crunchyroll",
+      "song": ["Shūhei Mutsuki"]
     }
   },
   {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
+    "id": "sonny-boy",
+    "name": "Sonny Boy",
+    "shortDescription": ["Mistério"],
+    "description": "Em férias de verão, estudantes descobrem que sua escola foi transportada para outra dimensão, onde ganham poderes. Agora, precisam cooperar para sobreviver ou conflitos surgirão.",
+    "imageUrl": "/assets/sonny-boy.jpg",
     "facts": {
-      "yearOfBirth": "1850",
-      "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
+      "creator": ["Shingo Natsume"],
+      "producer": ["Shingo Natsume"],
+      "studio": ["Madhouse"]
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+      "seasons": 1,
+      "episodes": 12,
+      "classification": "A14",
+      "assessment": 4.7,
+      "streaming": "Crunchyroll",
+      "song": ["Shonen Shoujo(interpretado CHICO with Honeyworks)"]
     }
   },
   {
-    "id": "yoko-shimomura",
-    "name": "Yoko Shimomura",
-    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
-    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
+    "id": "one-punch-man",
+    "name": "One Punch Man",
+    "shortDescription": ["Ação", "Comédia", "Super-Herói"],
+    "description": "Saitama, um herói entediado, busca um desafio, mas derrota todos os inimigos com um único soco. Sua jornada hilária em busca de adversários emocionantes.",
+    "imageUrl": "/assets/one-punch-man.jpg",
     "facts": {
-      "yearOfBirth": "1967",
-      "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
+      "creator": ["One"],
+      "producer": ["Chinatsu Matsui"],
+      "studio": ["Madhouse"]
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
+      "seasons": 2,
+      "episodes": 24,
+      "classification": "A12",
+      "assessment": 4.9,
+      "streaming": "Netflix",
+      "song": ["The Hero(interpretado JAM Project)"]
     }
   },
   {
-    "id": "maryam-mirzakhani",
-    "name": "Maryam Mirzakhani",
-    "shortDescription": "Matemática, ganadora del Premio Fields.",
-    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
+    "id": "another",
+    "name": "Another",
+    "shortDescription": ["Terror", "Suspense", "Sobrenatural"],
+    "description": "Ao se transferir para uma escola misteriosa, Sakakibara descobre segredos sombrios. Ao se aproximar de Mei Misaki, desastres inimagináveis se desenrolam. O que está errado neste mundo?",
+    "imageUrl": "/assets/another.jpg",
     "facts": {
-      "yearOfBirth": "1977",
-      "yearOfDeath": "2017",
-      "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
+      "creator": ["Yukito Ayatsuji"],
+      "producer": ["Tsutomu Mizushima"],
+      "studio": ["P.A. Works"]
     },
     "extraInfo": {
-      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
+      "seasons": 1,
+      "episodes": 13,
+      "classification": "A16",
+      "assessment": 4.7,
+      "streaming": "Crunchyroll",
+      "song": ["Kyoumu Densen(interpretada por Ali Project)"]
     }
   },
   {
-    "id": "adele-goldberg",
-    "name": "Adele Goldberg",
-    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
-    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
+    "id": "hellsing",
+    "name": "Hellsing",
+    "shortDescription": ["Ação", "Horror", "Sobrenatural"],
+    "description": "Arucard e Seras Victoria, vampiros, defendem o Império Britânico de ameaças sobrenaturais. Juntos, caçam as sombras, protegendo com sangue a Inglaterra.",
+    "imageUrl": "/assets/hellsing.jpg",
     "facts": {
-      "yearOfBirth": "1945",
-      "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
+      "creator": ["Kouta Hirano"],
+      "producer": ["Umanosuke Iida"],
+      "studio": ["Gonzo"]
     },
     "extraInfo": {
-      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
+      "seasons": 1,
+      "episodes": 13,
+      "classification": "A18",
+      "assessment": 4.7,
+      "streaming": "Netflix",
+      "song": ["Logos Naki World(interpretado por Yasushi Ishii)"]
     }
   },
   {
-    "id": "barbara-liskov",
-    "name": "Barbara Liskov",
-    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
-    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
+    "id": "inuyasha",
+    "name": "InuYasha",
+    "shortDescription": ["Aventura", "Comédia Romântica", "Fantasia"],
+    "description": "Kagome, ao ser transportada acidentalmente para o Japão feudal, une-se a InuYasha, meio-demônio, em busca das partes da 'Jóia de Quatro Almas' para evitar caos.",
+    "imageUrl": "/assets/inuyasha.jpg",
     "facts": {
-      "yearOfBirth": "1939",
-      "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "creator": ["Rumiko Takahashi"],
+      "producer": ["Masashi Ikeda e Yasunao Aoki"],
+      "studio": ["Sunrise"]
     },
     "extraInfo": {
-      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
+      "seasons": 6,
+      "episodes": 167,
+      "classification": "A12",
+      "assessment": 4.8,
+      "streaming": "Netflix",
+      "song": ["Change the World(interpretado pela banda V6)"]
     }
   },
   {
-    "id": "grace-hopper",
-    "name": "Grace Hopper",
-    "shortDescription": "Científica de la computación, creadora del primer compilador.",
-    "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
+    "id": "one-piece",
+    "name": "One Piece",
+    "shortDescription": ["Ficção de Aventura", "Fantasia Científica"],
+    "description": "Monkey D. Luffy busca o tesouro supremo, o One Piece, em uma jornada épica com sua tripulação, enfrentando desafios e inimigos em um vasto mundo de piratas.",
+    "imageUrl": "/assets/one-piece.jpg",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1992",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "creator": ["Eiichiro Oda"],
+      "producer": ["Kônosuke Uda"],
+      "studio": ["Toei Animation"]
     },
     "extraInfo": {
-      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
+      "seasons": 20,
+      "episodes": 1090,
+      "classification": "A12",
+      "assessment": 5.6,
+      "streaming": "Netflix",
+      "song": ["We Are(interpretada por Hiroshi Kitadan)"]
     }
   },
   {
-    "id": "margaret-hamilton",
-    "name": "Margaret Hamilton",
-    "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
-    "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
+    "id": "shaman-king",
+    "name": "Shaman King",
+    "shortDescription": ["Ação", "Aventura", "Comédia", "Sobrenatural"],
+    "description": "Yoh Asakura é um xamã em treinamento que participa do torneio 'Shaman Fight' para se tornar o Rei Xamã e comunicar-se com os espíritos.",
+    "imageUrl": "/assets/shaman-king.jpg",
     "facts": {
-      "yearOfBirth": "1936",
-      "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "creator": ["Hiroyuki Takei"],
+      "producer": ["Takeshi Furuta"],
+      "studio": ["Bridge"]
     },
     "extraInfo": {
-      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
+      "seasons": 1,
+      "episodes": 52,
+      "classification": "A12",
+      "assessment": 4.9,
+      "streaming": "Netflix",
+      "song": ["Soul Salvation(interpretada pela cantora e atriz Megumi Mayashibara)"]
     }
   },
   {
-    "id": "radia-perlman",
-    "name": "Radia Perlman",
-    "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
-    "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
+    "id": "spy-x-family",
+    "name": "Spy x Family",
+    "shortDescription": ["Ação", "Comédia", "Romance", "Slice of Life"],
+    "description": "Em guerra fria, agente Twilight infiltra-se em família para desvendar segredos políticos. Adota Anaya, uma telepata, e 'se casa' com Yor, uma assassina. Juntos, enfrentam surpresas em busca da paz.",
+    "imageUrl": "/assets/spy-x-family.jpg",
     "facts": {
-      "yearOfBirth": "1951",
-      "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "creator": ["Tatsuya Endo"],
+      "producer": ["Toho"],
+      "studio": ["Wit Studio"]
     },
     "extraInfo": {
-      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
+      "seasons": 2,
+      "episodes": 26,
+      "classification": "A14",
+      "assessment": 4.9,
+      "streaming": "Crunchyroll",
+      "songs": ["Color de yama", "Daybreak de Eve"]
     }
   },
   {
-    "id": "shafi-goldwasser",
-    "name": "Shafi Goldwasser",
-    "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
-    "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
+    "id": "dr-stone",
+    "name": "Dr. Stone",
+    "shortDescription": ["Aventura", "Comédia", "Ficção Científica"],
+    "description": "Um garoto chamado Senku Ishigami desperta milhares de anos após um fenômeno misterioso que transformou a humanidade em pedra. Ele é notável por sua inteligência e motivação pela ciência.",
+    "imageUrl": "/assets/dr-stone.jpg",
     "facts": {
-      "yearOfBirth": "1958",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "creator": ["Boichi"],
+      "producer": ["TOHO animation", "Shueisha", "8PAN"],
+      "studio": ["TMS Entertainment (S1–2)", "Die4Studio (S3–4)"]
     },
     "extraInfo": {
-      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
+      "seasons": 3,
+      "episodes": 57,
+      "classification": "A14",
+      "assessment": 4.8,
+      "streaming": "Crunchyroll",
+      "songs": ["Good Morning World! de Burnout Syndromes", "LIFE de Rude-α", "Rakuen de Fujifabric", "Koe? de Hatena"]
     }
   },
   {
-    "id": "chien-shiung-wu",
-    "name": "Chien-Shiung Wu",
-    "shortDescription": "Física experimental, contribuyó a la física nuclear.",
-    "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
+    "id": "mashle",
+    "name": "Mashle",
+    "shortDescription": ["Aventura", "Comédia", "Ficção Científica"],
+    "description": "Em um mundo de magia, Mash Burnedead, incapaz de usá-la, ingressa na Escola de Magia para superar elites. Seus músculos enfrentarão os maiores talentos mágicos.",
+    "imageUrl": "/assets/mashle.jpg",
     "facts": {
-      "yearOfBirth": "1912",
-      "yearOfDeath": "1997",
-      "birthPlace": "Liuhe, Taicang, China",
-      "mainField": "Física"
+      "creator": ["Hajime Komoto"],
+      "producer": ["TOHO animation", "Shueisha", "INSPION Edge"],
+      "studio": ["A-1 Pictures"]
     },
     "extraInfo": {
-      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
+      "seasons": 2,
+      "episodes": 14,
+      "classification": "A12",
+      "assessment": 4.8,
+      "streaming": "Crunchyroll",
+      "songs": ["Knock Out de Taiiku Okazaki", "Shū Cream Funk” (“Cream Puff Funk”) de Philosophy no Dance"]
     }
   },
   {
-    "id": "hedy-lamarr",
-    "name": "Hedy Lamarr",
-    "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
-    "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
+    "id": "kimi-ni-todoke",
+    "name": "Kimi ni Todoke",
+    "shortDescription": ["Drama", "Romance", "Comédia"],
+    "description": "A tímida Sawako ganhou o apelido de 'Sadako' na escola por conta de sua aparência. Mas coisas começam a mudar depois que ela faz amizade com o popular Kazehaya.",
+    "imageUrl": "/assets/kimi-ni-todoke.jpg",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "2000",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Actuación, Física"
+      "creator": ["Karuho Shiina"],
+      "producer": ["Nippon Television Network", "Shueisha"],
+      "studio": ["Production I.G"]
     },
     "extraInfo": {
-      "imageSource": "https://www.sparkfun.com/news/6147"
+      "seasons": 2,
+      "episodes": 38,
+      "classification": "A10",
+      "assessment": 4.8,
+      "streaming": "Netflix",
+      "songs": ["Kimi ni Todoke de Tanizawa Tomofumi", "Kataomoi de Chara", "Sawakaze deTomofumi Tanizawa", "Kimi ni Todoke por May’s"]
     }
   },
   {
-    "id": "maria-goeppert-mayer",
-    "name": "Maria Goeppert Mayer",
-    "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
-    "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
+    "id": "sword-art-online",
+    "name": "Sword Art Online",
+    "shortDescription": ["Ação", "Aventura", "Fantasia", "Romance"],
+    "description": "O criador do mundo virtual de Sword Art Online decide aprisionar todos os usuários dentro do jogo. Quem morrer nesse universo digital também morrerá na vida real.",
+    "imageUrl": "/assets/sword-art-online.jpg",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1972",
-      "birthPlace": "Kattowitz, Alemania",
-      "mainField": "Física"
+      "creator": ["Reki Kawahara"],
+      "producer": ["Aniplex", "Genco", "DAX Production", "ASCII Media Works", "Bandai Namco Games"],
+      "studio": ["A-1 Pictures"]
     },
     "extraInfo": {
-      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
+      "seasons": 4,
+      "episodes": 96,
+      "classification": "A14",
+      "assessment": 4.7,
+      "streaming": "Crunchyroll",
+      "songs": ["Crossing Field de LiSA", "Innocence de Eir Aoi", "Yume Sekai de Haruka Tomatsu", "Overfly de Luna Haruna", "entre outras"]
     }
   },
   {
-    "id": "lise-meitner",
-    "name": "Lise Meitner",
-    "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
-    "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
+    "id": "bleach",
+    "name": "Bleach",
+    "shortDescription": ["Ação", "Aventura", "Fantasia", "Sobrenatural"],
+    "description": "Ichigo Kurosaki, consegue ver fantasmas e vira Shinigami para proteger inocentes e guiar espíritos atormentados à paz.",
+    "imageUrl": "/assets/bleach.jpg",
     "facts": {
-      "yearOfBirth": "1878",
-      "yearOfDeath": "1968",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Física"
+      "creator": ["Tite Kubo"],
+      "producer": ["Aniplex", "Genco", "DAX Production", "ASCII Media Works", "Bandai Namco Games"],
+      "studio": ["Pierrot"]
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
+      "seasons": 16,
+      "episodes": 366,
+      "classification": "A12",
+      "assessment": 4.7,
+      "streaming": "Star+",
+      "songs": ["O anime tem várias músicas, cantadas por diferentes artistas como LiSA, Eir Aoi, Luna Haruna, Shirō Sagisu, entre outros"]
     }
   },
   {
-    "id": "sau-lan-wu",
-    "name": "Sau Lan Wu",
-    "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
-    "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
+    "id": "my-hero-academia",
+    "name": "My Hero Academia",
+    "shortDescription": ["Aventura", "Fantasia Científica", "História de Super-Herói", "Comédia"],
+    "description": "Em um mundo onde 80% da população tem algum tipo de dom especial, Izuku nasceu sem poderes e desafia a normalidade e entra na prestigiada academia de heróis.",
+    "imageUrl": "/assets/my-hero-academia.jpg",
     "facts": {
-      "yearOfBirth": "1940",
-      "birthPlace": "Hong Kong, China",
-      "mainField": "Física de Partículas"
+      "creator": ["Kōhei Horikoshi"],
+      "producer": ["Aniplex", "Genco", "DAX Production", "ASCII Media Works", "Bandai Namco Games"],
+      "studio": ["Bones"]
     },
     "extraInfo": {
-      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
+      "seasons": 6,
+      "episodes": 138,
+      "classification": "A12",
+      "assessment": 4.7,
+      "streaming": "Crunchyroll",
+      "songs": ["I Am Here! de Yuki Hayashi", "You Say Run(Re-build) de Yuki Hayashi", "Bokurano de Eve", "Heroes de Brian the Sun", "entre outras"]
     }
   },
   {
-    "id": "jocelyn-bell-burnell",
-    "name": "Jocelyn Bell Burnell",
-    "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
-    "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
+    "id": "attack-on-titan",
+    "name": "Attack on Titan",
+    "shortDescription": ["Ação", "Fantasia Sombria", "Pós-Apocalíptico"],
+    "description": "Eren, jurando eliminar Titãs, transforma-se em um. Lutando por liberdade, enfrenta ameaças monstruosas em sua terra natal.",
+    "imageUrl": "/assets/attack-on-titan.jpg",
     "facts": {
-      "yearOfBirth": "1943",
-      "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica"
+      "creator": ["Hajime Isayama"],
+      "producer": ["Production I.G"],
+      "studio": ["Wit Studio", "MAPPA"]
     },
     "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
+      "seasons": 4,
+      "episodes": 98,
+      "classification": "A18",
+      "assessment": 4.9,
+      "streaming": "Crunchyroll",
+      "songs": ["Algumas das canções mais populares são Guren no Yumiya e Jiyuu no Tsubasa de Linked Horizon", "Shinzou wo Sasageyo! de Linked Horizon", "Red Swan de Yoshiki feat. Hyde", "My War de Shinsei Kamattechan"]
     }
   },
   {
-    "id": "dorothy-crowfoot-hodgkin",
-    "name": "Dorothy Crowfoot Hodgkin",
-    "shortDescription": "Química, ganadora del Premio Nobel de Química.",
-    "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
+    "id": "black-clover",
+    "name": "Black Clover",
+    "shortDescription": ["Aventura", "Fantasia", "Shōnen"],
+    "description": "Asta, nascido com poderes antimagia únicos, e Yuno, um prodígio mágico - se esforçam para se tornar o Rei Mago, o maior de todos os usuários de magia.",
+    "imageUrl": "/assets/black-clover.jpg",
     "facts": {
-      "yearOfBirth": "1910",
-      "yearOfDeath": "1994",
-      "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-      "mainField": "Química"
+      "creator": ["Yuki Tabata"],
+      "producer": ["Pierrot"],
+      "studio": ["Pierrot"]
     },
     "extraInfo": {
-      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
+      "seasons": 4,
+      "episodes": 170,
+      "classification": "A14",
+      "assessment": 4.8,
+      "streaming": "Crunchyroll",
+      "songs": ["Algumas das canções mais populares são Haruka Mirai e Paint It Black de Kankaku Piero", "Black Rover e Guess Who Is Back de Vickeblanka", "Rakugaki Page e Black Catcher de Black Clover All Stars", "Everlasting Shine e Eien ni Hikare de Tomorrow X Together"]
     }
   },
   {
-    "id": "marie-curie",
-    "name": "Marie Curie",
-    "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
-    "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
+    "id": "somali-and-the-forest-spirit",
+    "name": "Somali and the Forest Spirit",
+    "shortDescription": ["Fantasia", "Aventura", "Slice of Life"],
+    "description": "Certo dia, Golem encontra uma garota humana. Esta é a crônica da jornada que criou um elo paternal entre um membro do clã 'humano' ao guardião da floresta dos monstros.",
+    "imageUrl": "/assets/somali-and-the-forest-spirit.jpg",
     "facts": {
-      "yearOfBirth": "1867",
-      "yearOfDeath": "1934",
-      "birthPlace": "Varsovia, Polonia",
-      "mainField": "Física y Química"
+      "creator": ["Yako Gureishi"],
+      "producer": ["Crunchyroll"],
+      "studio": ["Satelight", "Hornets"]
     },
     "extraInfo": {
-      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
+      "seasons": 1,
+      "episodes": 12,
+      "classification": "A12",
+      "assessment": 4.8,
+      "streaming": "Crunchyroll",
+      "songs": ["Arigatō wa Kocchi no Kotoba de Naotarō Moriyama", "Kokoro Somali de Inori Minase"]
     }
   },
   {
-    "id": "marjory-stephenson",
-    "name": "Marjory Stephenson",
-    "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
-    "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
+    "id": "naruto-shippuden",
+    "name": "Naruto Shippuden",
+    "shortDescription": ["Ação", "Artes Marciais", "Comédia", "Shounen", "Superpoder"],
+    "description": "Naruto Shippuden é a segunda parte do anime Naruto, ambientada dois anos após os eventos da série original, Shippuden acompanha o ninja adolescente Naruto e seus aliados.",
+    "imageUrl": "/assets/naruto-shippuden.jpg",
     "facts": {
-      "yearOfBirth": "1885",
-      "yearOfDeath": "1948",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Microbiología, Bioquímica"
+      "creator": ["Masashi Kishimoto"],
+      "producer": ["TV Tokyo, em parceria com a Aniplex, a Bandai, a Shueisha e a Pierrot."],
+      "studio": ["Pierrot"]
     },
     "extraInfo": {
-      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
+      "seasons": 21,
+      "episodes": 500,
+      "classification": "A14",
+      "assessment": 4.7,
+      "streaming": "Crunchyroll",
+      "songs": ["Blue Bird", "Spinning World", "Diver", "Niwakaamenimo Makezu"]
     }
   },
   {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
+    "id": "fullmetal-alchemist",
+    "name": "Fullmetal Alchemist",
+    "shortDescription": ["Ação", "Aventura", "Comédia", "Drama", "Fantasia", "Shounen"],
+    "description": "O descaso com as leis da alquimia tomou dois dos membros de Edward Elric e deixou a alma de Alphonse presa a uma armadura. Para recuperar o que perderam, os irmãos procuram a Pedra Filosofal.",
+    "imageUrl": "/assets/fullmetal-alchemist.jpg",
     "facts": {
-      "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
+      "creator": ["Hiromu Arakawa"],
+      "producer": ["TV Tokyo, em parceria com a Aniplex, a Square Enix, a Mainichi Broadcasting System e a Bones."],
+      "studio": ["Studio Bones"]
     },
     "extraInfo": {
-      "imageSource": ""
+      "seasons": 1,
+      "episodes": 51,
+      "classification": "A14",
+      "assessment": 4.9,
+      "streaming": "Crunchyroll",
+      "song": ["Melissa", "Ready Steady Go", "Rewrite", "Und"]
     }
-  }
+  },
+
 ];
