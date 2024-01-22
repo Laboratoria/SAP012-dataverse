@@ -6,7 +6,7 @@ export default [
     "name": "Cardcaptor Sakura",
     "shortDescription": ["Comédia", "Aventura"],
     "description": "Com as cartas de Clow sob controle, Sakura inicia o sétimo ano. Quando anomalias surgem, ela, com a chave de seus sonhos, embarca em uma nova jornada para coletar cartas mágicas.",
-    "imageUrl": "/assets/cardcaptor-sakura.jpg",
+    "imageUrl": "/src/assets/cardcaptor-sakura.jpg",
     "facts": {
       "creator": ["CLAMP"],
       "producer": ["Eizo Kondo"],
