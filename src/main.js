@@ -3,4 +3,13 @@ import { renderItems } from './view.js';
 
 import data from './data/dataset.js';
 
-console.log(example, renderItems(data), data);
+
+
+
+
+const listaCartao = document.getElementById('cartoes');
+listaCartao.innerHTML=renderItems(data);
+
+
+
+//console.log(example, renderItems(data), data);
