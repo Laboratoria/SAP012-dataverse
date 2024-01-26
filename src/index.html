@@ -11,40 +11,54 @@
   <body>
     <header>
       <figure>
-        <img src="/src/assets/imgheader.jpg" alt="Animação com duas meninas uma de cabelo rosa e outra azul" />
+        <img src="/assets/imgheader.jpg" alt="Animação com duas meninas uma de cabelo rosa e outra azul" />
       </figure>
       <h1>Otaku's List</h1>
     </header>
+
+<nav id="menu-suspenso">
+    <details >
+      <summary>Filtrar</summary>
+      <form>
+      <label for=""></label>
+      <select data-testid="selecionar-filtro" name="filtro" >
+          <option value="name">Nome</option>
+          <option value="streaming">Onde assistir</option>
+          <option value="classification">Classificação</option>
+      </select>
+      <input type="submit" value="Filtrar">
+      <button id="limpa-filtros">Limpar</button>
+    </form>
+    </details>
+    <details>
+      <summary>Ordenar</summary>
+       <form>
+        <label for=""></label>
+        <select data-testid="selecionar-ordenar" name="ordem">
+          <option value="">Nenhum</option>
+          <option value="asc">A - Z</option>
+          <option value="desc">Z - A</option>
+      </select>
+      <input type="submit" value="Ordenar">
+    </form>
+    </details>
+    <details>
+      <summary>Confira as Estatísticas</summary>
+      <section class="Estatísticas">
+        <ul id="listaClassificacao">
+        </ul>
+      </section>
+    </details>
+  </nav>
+
     <main>
       <h2>Deseja saber mais sobre animes?</h2>
       <section id="root">
-        <ul id="cartoes">
-          <!-- <li class="cartao" itemscope itemtype="cardcaptor-sakura">
-            <section class="info-externa">
-              <p>Classificação: <span itemprop="classification">L</span></p>
-              <img src="/src/assets/cardcaptor-sakura.jpg" alt="capa do anime">
-              <h5><span itemprop="name">Cardcaptor Sakura</span></h5>
-              <p>Avaliação: <span itemprop="assessment">4.8</span></p>
-              <p><span itemprop="streaming">Crunchyroll</span></p>
-              <p>Temporadas: <span itemprop="seasons">1</span></p>
-              <button onclick="openModal()">Curiosidades</button>
-            </section>
-            <section class="curiosidades" id="modal">
-              <span class="close" onclick="closeModal()">&times;</span>
-              <h6><span itemprop="shortDescription">Comédia, Aventura</span></h6>
-              <p><span itemprop="description">Com as cartas de Clow sob controle, Sakura inicia o sétimo ano. Quando anomalias surgem, ela, com a chave de seus sonhos, embarca em uma nova jornada para coletar cartas mágicas.</span>.</p>
-              <p>Episódios: <span itemprop="episodes">22</span></p>
-              <p>Canção: <span itemprop="song">Catch You Catch Me (interpretada por Gumi)</span></p>
-              <p>Criador: <span itemprop="creator">CLAMP</span></p>
-              <p>Produtor: <span itemprop="producer">Eizo Kondo</span></p>
-              <p>Studio: <span itemprop="studio">Madhouse</span></p>
-            </section>
-        </li> -->
-        </ul>
       </section>
+
     </main>
     <footer>
-      <p>Desenvolvido por Evelyn & Flaviane</p>
+      <p>Desenvolvido por Evelyn e Flaviane</p>
     </footer>
     <script src="main.js" type="module"></script>
   </body>
