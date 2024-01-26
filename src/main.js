@@ -17,19 +17,31 @@ classificationList.innerHTML = renderListClassification(computeStats(data));
 const filterButton = document.querySelector('[value="Filtrar"]');
 filterButton.addEventListener('click', filter);
 
+document.querySelector('[name="filtro"]').addEventListener('change', function() {
+  const filter = this.value;
+  const filterValueElement = document.querySelector('#filterValue');
+  let options = [];
+
+  if (filter === "name") {
+    options = data.map(item => item.name);
+  } else if (filter === "streaming") {
+    options = ["Crunchyroll", "Netflix", "Star+"];
+  } else if (filter === "classification") {
+    options = ["L", "A10", "A12", "A14", "A16", "A18"];
+  }
+
+  filterValueElement.innerHTML = options.map(option => `<option value="${option}">${option}</option>`).join('');
+});
+
 function filter(event) {
   event.preventDefault();
   const filter = document.querySelector('[name= "filtro"]').value;
-  let filteredData = null;
+  const filterValue = document.querySelector('#filterValue').value;
+   let filteredData = null;
 
-  if (filter === "name") {
-    const anime = prompt("Por favor, digite o nome do anime", "Naruto");
-    if (anime !== null) {
-      filteredData = filterBy(data, filter, anime);
-    }
+  if (filterValue !== "") {
+    filteredData =filterBy(data,filter,filterValue);
   }
   if (filteredData !== null)
-    listaCartao.innerHTML = renderItems(filteredData);
+  listaCartao.innerHTML = renderItems(filteredData);
 }
-
-
