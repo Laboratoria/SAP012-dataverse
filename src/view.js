@@ -1,7 +1,7 @@
 export const renderItems = (data) => {
   
   // Aquí comienza tu código y puedes retornar lo que tu necesites
-  let cartoes = "";
+  let cartoes = '<ul id="cartoes">';
   for (let i = 0; i < data.length; i++) {
     cartoes  +=   `<li class="cartao" itemscope itemtype="${data[i].id}">
                   <section class="info-externa">
@@ -23,6 +23,15 @@ export const renderItems = (data) => {
                   <p>Produtor: <span itemprop="producer">${data[i].facts.producer}</span></p>
                   <p>Studio: <span itemprop="studio">${data[i].facts.studio}</span></p></section></li>`;
   } 
+  cartoes +='</ul>'
   return cartoes ;
 };
+
+export const renderListClassification = (percents)=>{
+  let items ="";
+  for(const classification in percents){
+    items += `<li>Classificação ${classification}: ${percents[classification].toFixed(2)}%</li>`;
+  }
+  return items;
+}
 
