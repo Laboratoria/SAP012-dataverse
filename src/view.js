@@ -11,17 +11,17 @@ export const renderItems = (data) => {
                   <p><span itemprop="assessment">${data[i].extraInfo.assessment}</span></p>
                   <p><span itemprop="streaming">${data[i].extraInfo.streaming}</span></p>
                   <p>Temporadas <span itemprop="seasons">${data[i].extraInfo.seasons}</span></p>
-                  <button onclick="openModal()">Curiosidades</button></section>
+                  <button onclick="openModal('${data[i].id}')">Curiosidades</button></section>
 
                   <section class="curiosidades" id="modal-${data[i].id}">
-                  <span class="close" onclick="closeModal()">&times;</span>
+                  <span class="close" onclick="closeModal('${data[i].id}')">&times;</span>
                   <h6><span itemprop="shortDescription">${data[i].shortDescription}</span></h6>
                   <p><span itemprop="description">${data[i].description}</span>.</p>
                   <p>Episódios: <span itemprop="episodes">${data[i].extraInfo.episodes}</span></p>
                   <p>Canção: <span itemprop="song">${data[i].extraInfo.song.join(", ")}</span></p>
-                  <p>Criador: <span itemprop="creator">${data[i].facts.creator}</span></p>
-                  <p>Produtor: <span itemprop="producer">${data[i].facts.producer}</span></p>
-                  <p>Studio: <span itemprop="studio">${data[i].facts.studio}</span></p></section></li>`;
+                  <p>Criador: <span itemprop="creatorOfManga">${data[i].facts.creatorOfManga}</span></p>
+                  <p>Produtor: <span itemprop="producerOfManga">${data[i].facts.producerOfManga}</span></p>
+                  <p>Studio: <span itemprop="studioOfManga">${data[i].facts.studioOfManga}</span></p></section></li>`;
   } 
   cartoes +='</ul>'
   return cartoes ;
