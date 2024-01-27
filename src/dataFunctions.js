@@ -31,20 +31,18 @@ export const filterBy = (data, filterBy, value) => {
   return filteredData;
 }
 
-
-// }
 // export const sortBy =(data,sortBy,sortOrder)=>{
 //   let direction;
-//   if(order === 'asc'){
+//   if(sortOrder === 'asc'){
 //     direction =1;}
 //   else
 //   {direction = -1;}
 
 //   let sortedData = data.sort((a,b)=>{
-//     if(a[filter] < b[filter]){
+//     if(a[sortBy] < b[sortBy]){
 //       return - 1 * direction;
 //     }
-//     if(a[filter] > b[filter]){
+//     if(a[sortBy] > b[sortBy]){
 //       return 1 * direction;
 //     }
 //     return 0;
