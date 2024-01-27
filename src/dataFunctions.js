@@ -9,7 +9,7 @@ export const computeStats = (data) => {
   },{});
   const productCount = classifications.length;
 
-  const percents =Object.keys(count).reduce((accumulator,classification)=>{
+  const percents = Object.keys(count).reduce((accumulator,classification)=>{
     accumulator[classification] = (count[classification] / productCount) * 100;
     return accumulator;
   }, {});
