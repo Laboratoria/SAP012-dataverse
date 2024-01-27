@@ -16,8 +16,9 @@
       <h1>Otaku's List</h1>
     </header>
 
-<nav id="menu-suspenso">
-    <details >
+<section id="menu-suspenso">
+
+    <details class="meu-menu" >
       <summary>Filtrar</summary>
       <form>
       <label for=""></label>
@@ -26,39 +27,41 @@
           <option value="streaming">Onde assistir</option>
           <option value="classification">Classificação</option>
       </select>
-
       <select id="filterValue" data-testid="selecionar-valor-filtro" name="filterValue">
       </select>
-      <input type="submit" value="Filtrar">
-      <button id="limpa-filtros">Limpar</button>
+      <button value="Filtrar">Filtrar</button>
+      <button id="limpa-filtros" data-testid="botao-limpar">Limpar</button>
     </form>
     </details>
-    <details>
+
+    <details class="meu-menu">
       <summary>Ordenar</summary>
        <form>
         <label for=""></label>
-        <select data-testid="selecionar-ordenar" name="ordem">
+        <select data-testid="selecionar-ordenar" name="ordem-ordenacao">
           <option value="">Nenhum</option>
           <option value="asc">A - Z</option>
           <option value="desc">Z - A</option>
       </select>
-      <input type="submit" value="Ordenar">
+      <button value="Ordenar">Ordenar</button>
+      <button id="limpa-ordenacao" data-testid="botao-limpar">Limpar</button>
     </form>
     </details>
-    <details>
+
+    <details class="meu-menu">
       <summary>Confira as Estatísticas</summary>
       <section class="Estatísticas">
         <ul id="listaClassificacao">
         </ul>
       </section>
     </details>
-  </nav>
+</section>
 
     <main>
       <h2>Deseja saber mais sobre animes?</h2>
       <section id="root">
       </section>
-
+    </section>
     </main>
     <footer>
       <p>Desenvolvido por Evelyn e Flaviane</p>
