@@ -59,3 +59,16 @@ function filter(event) {
   if (filteredData !== null)
   listaCartao.innerHTML = renderItems(filteredData);
 }
+
+//ordenação
+
+//modal
+window.openModal = (id) => {
+  let modal = document.querySelector('#modal-' + id);
+  modal.style.display = 'block';
+}
+
+window.closeModal = (id) => {
+  let modal = document.querySelector('#modal-' + id);
+  modal.style.display = 'none';
+}
