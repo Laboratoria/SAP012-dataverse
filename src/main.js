@@ -4,20 +4,32 @@ import { renderItems, renderListClassification } from './view.js';
 
 import data from './data/dataset.js';
 
-const listaCartao = document.getElementById('root');
-const limparFiltros = () => {
-  listaCartao.innerHTML = renderItems(data);
-}
-
-limparFiltros();
-
+//estatistica
 const classificationList = document.getElementById('listaClassificacao');
 classificationList.innerHTML = renderListClassification(computeStats(data));
 
+//container dos cartões
+const listaCartao = document.getElementById('root');
+
+//lipmpar dados
+const limparFiltrosOrdenacao = (event) => {
+  if(event !== null)
+  event.preventDefault();
+  listaCartao.innerHTML = renderItems(data);
+}
+
+limparFiltrosOrdenacao(null);
+
+document.getElementById('limpa-filtros').addEventListener('click',limparFiltrosOrdenacao);
+document.getElementById('limpa-ordenacao').addEventListener('click',limparFiltrosOrdenacao);
+
+//filtros
 const filterButton = document.querySelector('[value="Filtrar"]');
 filterButton.addEventListener('click', filter);
 
-document.querySelector('[name="filtro"]').addEventListener('change', function() {
+const filterSelect = document.querySelector('[name="filtro"]');
+filterSelect.addEventListener('change', function(event) {
+  event.preventDefault();
   const filter = this.value;
   const filterValueElement = document.querySelector('#filterValue');
   let options = [];
@@ -32,6 +44,8 @@ document.querySelector('[name="filtro"]').addEventListener('change', function() 
 
   filterValueElement.innerHTML = options.map(option => `<option value="${option}">${option}</option>`).join('');
 });
+
+filterSelect.dispatchEvent(new Event('change'));
 
 function filter(event) {
   event.preventDefault();
