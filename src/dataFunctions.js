@@ -3,21 +3,17 @@
 export const computeStats = (data) => {
   const classifications = data.map(obj => obj.extraInfo.classification);
 
-  const count = {};
-  for (let i = 0; i < classifications.length; i++) {
-    const classification = classifications[i];
-    if (count[classification] === undefined) {
-      count[classification] = 1;
-    }
-    else {
-      count[classification]++;
-    }
-  }
-  const percents = {};
-  for (const classification in count) {
-    percents[classification] = (count[classification] / classifications.length) * 100;
-  }
-  return percents;
+  const count = classifications.reduce((accumulator, classification)=>{
+    accumulator[classification] =(accumulator[classification] || 0) + 1;
+    return accumulator;
+  },{});
+  const productCount = classifications.length;
+
+  const percents =Object.keys(count).reduce((accumulator,classification)=>{
+    accumulator[classification] = (count[classification] / productCount) * 100;
+    return accumulator;
+  }, {});
+  return percents; 
 };
 
 export const filterBy = (data, filterBy, value) => {
