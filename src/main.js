@@ -5,8 +5,8 @@ import { renderItems, renderListClassification } from './view.js';
 import data from './data/dataset.js';
 
 //estatistica
-const classificationList = document.getElementById('listaClassificacao');
-classificationList.innerHTML = renderListClassification(computeStats(data));
+const classificationList = document.querySelector('.estatisticas');
+classificationList.appendChild(renderListClassification(computeStats(data)));
 
 //container dos cartões
 const listaCartao = document.getElementById('root');
@@ -14,7 +14,7 @@ const listaCartao = document.getElementById('root');
 //lipmpar dados
 const limparFiltrosOrdenacao = (event) => {
   if(event !== null)
-  event.preventDefault();
+    event.preventDefault();
   listaCartao.innerHTML = renderItems(data);
 }
 
@@ -24,8 +24,9 @@ document.getElementById('limpa-filtros').addEventListener('click',limparFiltrosO
 document.getElementById('limpa-ordenacao').addEventListener('click',limparFiltrosOrdenacao);
 
 //filtros
-const filterButton = document.querySelector('[value="Filtrar"]');
-filterButton.addEventListener('click', filter);
+
+const itemFilter= document.querySelector('#filterValue');
+itemFilter.addEventListener('change', filter);
 
 const filterSelect = document.querySelector('[name="filtro"]');
 filterSelect.addEventListener('change', function(event) {
@@ -51,24 +52,24 @@ function filter(event) {
   event.preventDefault();
   const filter = document.querySelector('[name= "filtro"]').value;
   const filterValue = document.querySelector('#filterValue').value;
-   let filteredData = null;
+  let filteredData = null;
 
   if (filterValue !== "") {
     filteredData =filterBy(data,filter,filterValue);
   }
   if (filteredData !== null)
-  listaCartao.innerHTML = renderItems(filteredData);
+    listaCartao.innerHTML = renderItems(filteredData);
 }
 
 //ordenação
 
 //modal
 window.openModal = (id) => {
-  let modal = document.querySelector('#modal-' + id);
+  const modal = document.querySelector('#modal-' + id);
   modal.style.display = 'block';
 }
 
 window.closeModal = (id) => {
-  let modal = document.querySelector('#modal-' + id);
+  const modal = document.querySelector('#modal-' + id);
   modal.style.display = 'none';
 }
