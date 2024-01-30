@@ -31,23 +31,90 @@ export const filterBy = (data, filterBy, value) => {
   return filteredData;
 }
 
-// export const sortBy =(data,sortBy,sortOrder)=>{
-//   let direction;
-//   if(sortOrder === 'asc'){
-//     direction =1;}
-//   else
-//   {direction = -1;}
+// const ordenarPorStreaming = (a, b, ordem) => {
+//   const streamingA = a.extraInfo.streaming.toUpperCase();
+//   const streamingB = b.extraInfo.streaming.toUpperCase();
 
-//   let sortedData = data.sort((a,b)=>{
-//     if(a[sortBy] < b[sortBy]){
-//       return - 1 * direction;
-//     }
-//     if(a[sortBy] > b[sortBy]){
-//       return 1 * direction;
-//     }
-//     return 0;
+//   let comparacao = 0;
+//   if (streamingA > streamingB) {
+//     comparacao = 1;
+//   } else if (streamingA < streamingB) {
+//     comparacao = -1;
+//   }
 
-//   });
-//   return sortedData;
+//   return (
+//     (ordem === 'desc') ? (comparacao * -1) : comparacao
+//   );
+// };
 
-// }
+// // Função principal para ordenar
+// export const sortBy = (data, sortBy, sortOrder) => {
+//   if (sortBy === 'streaming') {
+//     return data.sort((a, b) => ordenarPorStreaming(a, b, sortOrder));
+//   }
+// };
+
+// Função principal para ordenar
+export const sortBy = (data, sortBy, sortOrder) => {
+  if (sortBy === 'name') {
+    return data.sort((a, b) => ordenarPorNome(a, b, sortOrder));
+  } else if (sortBy === 'streaming') {
+    return data.sort((a, b) => ordenarPorStreaming(a, b, sortOrder));
+  } else if (sortBy === 'classification') {
+    return data.sort((a, b) => ordenarPorClassificacao(a, b, sortOrder));
+  }
+};
+
+// Função para ordenar por nome
+const ordenarPorNome = (a, b, ordem) => {
+  const nomeA = a.name.toUpperCase();
+  const nomeB = b.name.toUpperCase();
+
+  let comparacao = 0;
+  if (nomeA > nomeB) {
+    comparacao = 1;
+  } else if (nomeA < nomeB) {
+    comparacao = -1;
+  }
+
+  return (
+    (ordem === 'desc') ? (comparacao * -1) : comparacao
+  );
+};
+
+// Função para ordenar por streaming
+const ordenarPorStreaming = (a, b, ordem) => {
+  const streamingA = a.extraInfo.streaming.toUpperCase();
+  const streamingB = b.extraInfo.streaming.toUpperCase();
+
+  let comparacao = 0;
+  if (streamingA > streamingB) {
+    comparacao = 1;
+  } else if (streamingA < streamingB) {
+    comparacao = -1;
+  }
+
+  return (
+    (ordem === 'desc') ? (comparacao * -1) : comparacao
+  );
+};
+
+// Função para ordenar por classificação
+const ordenarPorClassificacao = (a, b, ordem) => {
+  const classificacoes = ['L', 'A10', 'A12', 'A14', 'A16', 'A18'];
+  const classificacaoA = classificacoes.indexOf(a.extraInfo.classification);
+  const classificacaoB = classificacoes.indexOf(b.extraInfo.classification);
+
+  let comparacao = 0;
+  if (classificacaoA > classificacaoB) {
+    comparacao = 1;
+  } else if (classificacaoA < classificacaoB) {
+    comparacao = -1;
+  }
+
+  return (
+    (ordem === 'desc') ? (comparacao * -1) : comparacao
+  );
+};
+
+
