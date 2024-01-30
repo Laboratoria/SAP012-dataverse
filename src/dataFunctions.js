@@ -30,6 +30,29 @@ export const filterBy = (data, filterBy, value) => {
 
   return filteredData;
 }
+/*export const sortBy = (data, sortBy, sortOrder ) => {
+  const ordenacao = [...data].sort((a, b) => {
+    let result = 0;
+    if (a.extraInfo[sortBy] < b.extraInfo[sortBy]) {
+      if (sortOrder === 'asc') {
+        result = -1;
+      } else {
+        result = 1;
+      }
+    } else if (a.extraInfo[sortBy] > b.extraInfo[sortBy]) {
+      if (sortOrder === 'asc') {
+        result = 1;
+      } else {
+        result = -1;
+      }
+    }
+    return result;
+  });
+  if (sortOrder === 'desc') {
+    ordenacao.reverse();
+  }
+  return ordenacao;
+};*/
 
 // const ordenarPorStreaming = (a, b, ordem) => {
 //   const streamingA = a.extraInfo.streaming.toUpperCase();
@@ -65,7 +88,7 @@ export const sortBy = (data, sortBy, sortOrder) => {
   }
 };
 
-// Função para ordenar por nome
+//  ordenar por nome
 const ordenarPorNome = (a, b, ordem) => {
   const nomeA = a.name.toUpperCase();
   const nomeB = b.name.toUpperCase();
@@ -82,7 +105,7 @@ const ordenarPorNome = (a, b, ordem) => {
   );
 };
 
-// Função para ordenar por streaming
+// ordenar por streaming
 const ordenarPorStreaming = (a, b, ordem) => {
   const streamingA = a.extraInfo.streaming.toUpperCase();
   const streamingB = b.extraInfo.streaming.toUpperCase();
@@ -99,7 +122,7 @@ const ordenarPorStreaming = (a, b, ordem) => {
   );
 };
 
-// Função para ordenar por classificação
+// ordenar por classificação
 const ordenarPorClassificacao = (a, b, ordem) => {
   const classificacoes = ['L', 'A10', 'A12', 'A14', 'A16', 'A18'];
   const classificacaoA = classificacoes.indexOf(a.extraInfo.classification);
