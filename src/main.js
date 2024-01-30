@@ -16,7 +16,7 @@ classificationList.appendChild(renderListClassification(computeStats(data)));
 const itemFilter= document.querySelector('#filterValue');
 itemFilter.addEventListener('change', filter);
 
-const itemSortOrder = document.querySelector('[name="ordem-ordenacao"]');
+const itemSortOrder = document.querySelector('[name="sort-order');
 itemSortOrder.addEventListener('change', filter);
 
 const filterSelect = document.querySelector('[name="filtro"]');
