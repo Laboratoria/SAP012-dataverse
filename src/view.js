@@ -28,11 +28,11 @@ export const renderItems = (data) => {
 };
 
 export const renderListClassification = (percents)=>{
-  let ul = document.createElement('ul');
+  const ul = document.createElement('ul');
   ul.id = "listaClassificacao";
 
   for(const classification in percents){
-    let li = document.createElement('li');
+    const li = document.createElement('li');
     li.textContent = `Classicação ${classification}: ${percents[classification].toFixed(2)}%`;
     ul.appendChild(li);
   }
