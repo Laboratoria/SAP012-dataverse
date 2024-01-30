@@ -1,32 +1,23 @@
-import { computeStats, filterBy } from './dataFunctions.js';
+import { computeStats, filterBy, sortBy } from './dataFunctions.js';
 
 import { renderItems, renderListClassification } from './view.js';
 
 import data from './data/dataset.js';
 
-//estatistica
-const classificationList = document.querySelector('.estatisticas');
-classificationList.appendChild(renderListClassification(computeStats(data)));
 
 //container dos cartões
 const listaCartao = document.getElementById('root');
 
-//lipmpar dados
-const limparFiltrosOrdenacao = (event) => {
-  if(event !== null)
-    event.preventDefault();
-  listaCartao.innerHTML = renderItems(data);
-}
+//estatistica
+const classificationList = document.querySelector('.estatisticas');
+classificationList.appendChild(renderListClassification(computeStats(data)));
 
-limparFiltrosOrdenacao(null);
-
-document.getElementById('limpa-filtros').addEventListener('click',limparFiltrosOrdenacao);
-document.getElementById('limpa-ordenacao').addEventListener('click',limparFiltrosOrdenacao);
-
-//filtros
-
+//filtros e ordenação
 const itemFilter= document.querySelector('#filterValue');
 itemFilter.addEventListener('change', filter);
+
+const itemSortOrder = document.querySelector('[name="ordem-ordenacao"]');
+itemSortOrder.addEventListener('change', filter);
 
 const filterSelect = document.querySelector('[name="filtro"]');
 filterSelect.addEventListener('change', function(event) {
@@ -35,7 +26,9 @@ filterSelect.addEventListener('change', function(event) {
   const filterValueElement = document.querySelector('#filterValue');
   let options = [];
 
-  if (filter === "name") {
+  if(filter === ""){
+    options = [""];
+  } else if (filter === "name") {
     options = data.map(item => item.name);
   } else if (filter === "streaming") {
     options = ["Crunchyroll", "Netflix", "Star+"];
@@ -50,26 +43,48 @@ filterSelect.dispatchEvent(new Event('change'));
 
 function filter(event) {
   event.preventDefault();
-  const filter = document.querySelector('[name= "filtro"]').value;
-  const filterValue = document.querySelector('#filterValue').value;
+  const filter = filterSelect.value;
+  const filterValue = itemFilter.value;
   let filteredData = null;
 
   if (filterValue !== "") {
     filteredData =filterBy(data,filter,filterValue);
   }
-  if (filteredData !== null)
+  if (filteredData === null){
+    filteredData = data;
+  } 
+
+  const sortOrder = itemSortOrder.value;
+  if(sortOrder !== ""){
+    listaCartao.innerHTML = renderItems(sortBy(filteredData, 'name',sortOrder));
+  }else{
     listaCartao.innerHTML = renderItems(filteredData);
+  }
+    
 }
 
-//ordenação
+//lipmpar dados
+const limparFiltrosOrdenacao = (event) => {
+  if(event !== null)
+    event.preventDefault();
+  itemSortOrder.value = "";
+  filterSelect.value = "";
+  itemFilter.value = "";
+  listaCartao.innerHTML = renderItems(data);
+}
+
+limparFiltrosOrdenacao(null);
+
+document.getElementById("limpa-filtros").addEventListener('click',limparFiltrosOrdenacao);
+document.getElementById('limpa-ordenacao').addEventListener('click',limparFiltrosOrdenacao);
 
 //modal
 window.openModal = (id) => {
-  const modal = document.querySelector('#modal-' + id);
-  modal.style.display = 'block';
+  const modal = document.querySelector("#modal-" + id);
+  modal.style.display = "block";
 }
 
 window.closeModal = (id) => {
-  const modal = document.querySelector('#modal-' + id);
-  modal.style.display = 'none';
+  const modal = document.querySelector("#modal-" + id);
+  modal.style.display = "none";
 }
