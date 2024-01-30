@@ -23,6 +23,7 @@
       <form>
       <label for=""></label>
       <select data-testid="selecionar-filtro" name="filtro" >
+          <option value="">Nenhum</option>
           <option value="name">Nome</option>
           <option value="streaming">Onde assistir</option>
           <option value="classification">Classificação</option>
@@ -39,13 +40,12 @@
       <summary>Ordenar</summary>
        <form>
         <label for=""></label>
-        <select data-testid="selecionar-ordenar" name="ordem-ordenacao">
+        <select data-testid="select-sort" name="sort-order">
           <option value="">Nenhum</option>
           <option value="asc">A - Z</option>
           <option value="desc">Z - A</option>
       </select>
-      <button value="Ordenar">Ordenar</button>
-      <button id="limpa-ordenacao" data-testid="botao-limpar">Limpar</button>
+      <button id="limpa-ordenacao" data-testid="button-clear">Limpar</button>
     </form>
     </details>
 
