@@ -33,6 +33,13 @@ header h1 {
   font-weight: 500;
   line-height: normal;
 }
+#filtro {
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin-left: auto;
+}
 main {
   border: solid 1.5px purple;
   display: flex;
@@ -119,9 +126,12 @@ ul{
     cursor: pointer;
   }
   footer {
-    color:#FFA500;
+    background-color: #FFA500;
     width: 220px;
-    height: 15px
+    height: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 
   }
   footer p {
