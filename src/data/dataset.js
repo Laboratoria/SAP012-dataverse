@@ -1,378 +1,485 @@
 export default [
+
+
   {
-    "id": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
+    "id": "cardcaptor-sakura",
+    "name": "Cardcaptor Sakura",
+    "shortDescription": "Comédia, Aventura",
+    "description": "Baseado no mangá de mesmo nome do grupo Clamp. A história gira em torno de Sakura Kinomoto, uma estudante do quarto ano que descobre poderes mágicos após libertar acidentalmente um conjunto de cartas mágicas chamadas Cartas Clow. Ela deve recuperar as cartas para evitar uma catástrofe no mundo. Cada carta tem poderes diferentes e só pode ser ativada por alguém com habilidades mágicas inerentes. O anime tem 70 episódios e dois filmes. Uma sequência chamada Cardcaptor Sakura: Clear Card começou a ser publicada em 2016.",
+    "imageUrl": "https://assets.gamearena.gg/wp-content/uploads/2023/12/04084244/cardcaptor-sakura.jpg",
     "facts": {
-      "yearOfBirth": "1815",
-      "yearOfDeath": "1852",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
+      "creatorOfManga": "CLAMP",
+      "producerOfManga": "Eizo Kondo",
+      "studioOfManga": "Madhouse"
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
+      "seasons": 1,
+      "episodes": 22,
+      "classification": "L",
+      "assessment": 4.8,
+      "streaming": "Crunchyroll",
+      "song": ["Catch You Catch Me (interpretada por Gumi)"]
     }
   },
   {
-    "id": "emmy-noether",
-    "name": "Emmy Noether",
-    "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-    "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
+    "id": "yu-yu-hakusho",
+    "name": "Yu Yu Hakusho",
+    "shortDescription": "Ação, Aventura, Comédia Dramática, Sobrenatural",
+    "description": "Baseado no mangá de Yoshihiro Togashi, que conta a história de Yusuke Urameshi, um delinquente juvenil que morre ao tentar salvar uma criança de um acidente de carro. Ele é ressuscitado e recebe o título de “Detetive Espiritual”, tendo que investigar casos envolvendo demônios e aparições no Mundo Humano. O anime se torna mais focado em lutas e torneios de artes marciais conforme avança. O anime tem 112 episódios, dois filmes, uma série de OVAs e uma série live-action. Yu Yu Hakusho é considerado um dos melhores animes dos anos 90.",
+    "imageUrl":"https://furansujapon.com/wp-content/uploads/2020/12/Yu-Yu-Hakusho.jpg",
     "facts": {
-      "yearOfBirth": "1882",
-      "yearOfDeath": "1935",
-      "birthPlace": "Erlangen, Alemania",
-      "mainField": "Matemáticas"
+      "creatorOfManga": "Yoshihiro Togashi",
+      "producerOfManga": "Yoshihiro Togashi",
+      "studioOfManga": "Pierrot"
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
+      "seasons": 1,
+      "episodes": 112,
+      "classification": "A16",
+      "assessment": 4.8,
+      "streaming": "Crunchyroll",
+      "song": ["Hohoemi no Bakudan(interpretado grupo Mawatari Matsuko)"]
     }
   },
   {
-    "id": "hypatia-de-alejandria",
-    "name": "Hypatia de Alejandría",
-    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
+    "id": "death-note",
+    "name": "Death Note",
+    "shortDescription": "Suspense, Sobrenatural, Psicológico",
+    "description": "Baseado no mangá de Tsugumi Ohba e Takeshi Obata. A história acompanha Light Yagami, um estudante genial que encontra um caderno sobrenatural: o “Death Note”, que pertencia ao shinigami Ryuk, e concede ao usuário a habilidade de matar qualquer pessoa cujo nome seja escrito em suas páginas. Light decide usar o caderno para criar um novo mundo livre de mal, mas entra em conflito com L, um detetive misterioso que tenta capturar e deter Kira, o apelido dado ao assassino em série.",
+    "imageUrl": "https://s2-techtudo.glbimg.com/1Q76caEdN3BriFZ_l61VD5MJkYs=/0x0:1280x720/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/g/0/s4BJiLQGSb9USN3vTvAg/death-note-netflix.jpg",
     "facts": {
-      "yearOfBirth": "circa 360",
-      "yearOfDeath": "415",
-      "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
+      "creatorOfManga": "Tsugumi Ohba",
+      "producerOfManga": "Tetsuro Araqui",
+      "studioOfManga": "Madhouse"
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
+      "seasons": 1,
+      "episodes": 37,
+      "classification": "A16",
+      "assessment": 4.8,
+      "streaming": "Netflix",
+      "song": ["the WORLD(interpretada banda japonesa Nightmare)"]
     }
   },
   {
-    "id": "marjorie-lee-browne",
-    "name": "Marjorie Lee Browne",
-    "shortDescription": "Matemática, contribuyó a la teoría de números.",
-    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
+    "id": "demon-slayer",
+    "name": "Demon Slayer",
+    "shortDescription": "Ação, Fantasia Sombria, Artes Marciais",
+    "description": "Baseado em um mangá, Demon Slayer é anime de fantasia sombria que conta a história de Tanjiro Kamado, um garoto que se torna um caçador de demônios depois que sua família é morta e sua irmã Nezuko é transformada em uma demônia. Tanjiro busca uma forma de curar Nezuko e vingar sua família, enfrentando vários demônios e aprendendo técnicas de respiração especiais. A obra se passa no Japão da era Taishō e explora temas como perseverança, amizade, bondade e sacrifício.",
+    "imageUrl": "https://s2-techtudo.glbimg.com/fscjBXjyh15CsR0umO4h0i8O05M=/0x0:1280x720/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/J/8/EbfA0BTv2pV98gASWdfA/f5d0f04e85a224493fe9caa2e59740811630901421-main.png",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "1979",
-      "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
+      "creatorOfManga": "Koyoharu Gotōge",
+      "producerOfManga": "Yuma Takahash",
+      "studioOfManga": "Shueisha"
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
+      "seasons": 5,
+      "episodes": 56,
+      "classification": "A14",
+      "assessment": 4.9,
+      "streaming": "Netflix",
+      "song": ["Gurenge(interpretada LiSA)"]
     }
   },
   {
-    "id": "shakuntala-devi",
-    "name": "Shakuntala Devi",
-    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
-    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
+    "id": "lycoris-recoil",
+    "name": "Lycoris Recoil",
+    "shortDescription": "Ação",
+    "description": "Lycoris Recoil é um anime de ação sobre duas garotas órfãs, Chisato e Takina, que trabalham como assassinas secretas para uma organização chamada Direct Attack. Elas também vivem uma vida normal como estudantes e funcionárias de um café chamado LycoReco. O anime mostra as aventuras, os conflitos e os sentimentos das duas protagonistas, que têm personalidades e objetivos diferentes, mas que se tornam amigas e parceiras. O anime foi produzido pelo estúdio A-1 Pictures e exibido entre julho e setembro de 2022. Ele também teve uma adaptação para mangá, uma light novel e uma peça de teatro.",
+    "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh05tMhGJa1gVOvwpHeiX0M6LVx-isqlTMH8HCyAzU77ES-YrcLxQFKeV20vnRk9504mExHi44GZGlflR1zCVDBEuJvkgAfJ-9roD4it3NFE_D07JvLOAIDxMmsfiCuW1w39gd2IgYsvjko2Fl9ZpePsJGVzCgWMjlMMu7gCqBNdvz6VQeo51uNB-3Xag/w1200-h630-p-k-no-nu/primeiras-impressoes-anime-lycoris-recoil-1.jpg",
     "facts": {
-      "yearOfBirth": "1929",
-      "yearOfDeath": "2013",
-      "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
+      "creatorOfManga": "Spider Lily e Asaura",
+      "producerOfManga": "Atsuhiro Iwakami, Masayuki Nishide",
+      "studioOfManga": "A-1 Pictures"
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+      "seasons": 1,
+      "episodes": 13,
+      "classification": "A14",
+      "assessment": 4.8,
+      "streaming": "Crunchyroll",
+      "song": ["Shūhei Mutsuki"]
     }
   },
   {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
+    "id": "sonny-boy",
+    "name": "Sonny Boy",
+    "shortDescription": "Mistério",
+    "description": "Sonny Boy é um anime de ficção científica e drama, criado por Shingo Natsume. A trama segue 36 estudantes do ensino médio que são levados para uma dimensão paralela, onde ganham poderes sobrenaturais. Eles têm que descobrir as regras desse mundo e encontrar uma forma de voltar para casa. O anime usa uma narrativa não-tradicional, pulando eventos importantes e focando nas reações dos personagens. O anime explora temas psicológicos como identidade, expectativa social, liberdade e solidão. O anime foi premiado com o Prêmio de Excelência no 25º Festival de Artes Midiáticas do Japão.",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/5909d1c31de62c41cdd683a887d6cbdfb0cd6198759c06bf45192419be2fe011._RI_TTW_.jpg",
     "facts": {
-      "yearOfBirth": "1850",
-      "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
+      "creatorOfManga": "Shingo Natsume",
+      "producerOfManga": "Shingo Natsume",
+      "studioOfManga": "Madhouse"
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+      "seasons": 1,
+      "episodes": 12,
+      "classification": "A14",
+      "assessment": 4.7,
+      "streaming": "Crunchyroll",
+      "song": ["Shonen Shoujo(interpretado CHICO with Honeyworks)"]
     }
   },
   {
-    "id": "yoko-shimomura",
-    "name": "Yoko Shimomura",
-    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
-    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
+    "id": "one-punch-man",
+    "name": "One Punch Man",
+    "shortDescription": "Ação, Comédia, Super-Herói",
+    "description": "One Punch Man é um anime que conta a história de Saitama, um super-herói que pode derrotar qualquer inimigo com um único soco. Porém, ele fica entediado e frustrado por não encontrar desafios à sua altura. Ele se junta à Associação de Heróis, que emprega super-heróis para combater os monstros e vilões que ameaçam a paz. Saitama conhece vários outros heróis e inimigos, alguns dos quais se tornam seus amigos ou rivais. O anime é uma comédia de ação que parodia os clichês dos gêneros de super-heróis e shonen.",
+    "imageUrl": "https://zonacritica.com.br/wp-content/uploads/2023/03/One-Punch-Man-2.jpg",
     "facts": {
-      "yearOfBirth": "1967",
-      "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
+      "creatorOfManga": "One",
+      "producerOfManga": "Chinatsu Matsui",
+      "studioOfManga": "Madhouse"
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
+      "seasons": 2,
+      "episodes": 24,
+      "classification": "A12",
+      "assessment": 4.9,
+      "streaming": "Netflix",
+      "song": ["The Hero(interpretado JAM Project)"]
     }
   },
   {
-    "id": "maryam-mirzakhani",
-    "name": "Maryam Mirzakhani",
-    "shortDescription": "Matemática, ganadora del Premio Fields.",
-    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
+    "id": "another",
+    "name": "Another",
+    "shortDescription": "Terror, Suspense, Sobrenatural",
+    "description": "Another é um anime de terror e suspense que se passa na escola Yomiyama, onde a classe 3-3 tem uma maldição envolvendo a morte de uma aluna chamada Misaki 26 anos atrás. O protagonista, Sakakibara Kouichi, se transfere para essa classe e conhece uma garota misteriosa com um tapa-olho, Misaki Mei. Juntos, eles tentam descobrir o segredo por trás da maldição e parar as mortes que começam a acontecer na classe. O anime tem 12 episódios e foi baseado em uma light novel de Yukito Ayatsuji.",
+    "imageUrl": "https://i0.wp.com/heroisx.com/wp-content/uploads/2012/02/another_anime.jpg",
     "facts": {
-      "yearOfBirth": "1977",
-      "yearOfDeath": "2017",
-      "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
+      "creatorOfManga": "Yukito Ayatsuji",
+      "producerOfManga": "Tsutomu Mizushima",
+      "studioOfManga": "P.A. Works"
     },
     "extraInfo": {
-      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
+      "seasons": 1,
+      "episodes": 13,
+      "classification": "A16",
+      "assessment": 4.7,
+      "streaming": "Crunchyroll",
+      "song": ["Kyoumu Densen(interpretada por Ali Project)"]
     }
   },
   {
-    "id": "adele-goldberg",
-    "name": "Adele Goldberg",
-    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
-    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
+    "id": "hellsing",
+    "name": "Hellsing",
+    "shortDescription": "Ação, Horror, Sobrenatural",
+    "description": "Hellsing é um anime baseado em um mangá de mesmo nome de Kouta Hirano. Ele conta a história da organização Hellsing, que combate vampiros, ghouls e outras ameaças sobrenaturais que ameaçam a Inglaterra. O principal agente da Hellsing é Alucard, um poderoso e misterioso vampiro que serve a Sir Integra Fairbrook Wingates Hellsing, a líder da organização e bisneta de Abraham Van Helsing. O anime segue uma trama diferente do mangá, especialmente no final, mas com os mesmos protagonistas e personagens principais.",
+    "imageUrl": "https://i2.wp.com/blackpipe.com.br/wp-content/uploads/2017/05/Hellsing.jpg",
     "facts": {
-      "yearOfBirth": "1945",
-      "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
+      "creatorOfManga": "Kouta Hirano",
+      "producerOfManga": "Umanosuke Iida",
+      "studioOfManga": "Gonzo"
     },
     "extraInfo": {
-      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
+      "seasons": 1,
+      "episodes": 13,
+      "classification": "A18",
+      "assessment": 4.7,
+      "streaming": "Netflix",
+      "song": ["Logos Naki World(interpretado por Yasushi Ishii)"]
     }
   },
   {
-    "id": "barbara-liskov",
-    "name": "Barbara Liskov",
-    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
-    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
+    "id": "inuyasha",
+    "name": "InuYasha",
+    "shortDescription": "Aventura, Comédia Romântica, Fantasia",
+    "description": "InuYasha é um mangá e anime de Rumiko Takahashi que conta a história de um meio-demônio chamado InuYasha e uma garota do presente chamada Kagome Higurashi. Eles viajam pelo Japão feudal em busca dos fragmentos da Joia de Quatro Almas, uma relíquia poderosa que pode conceder desejos. No caminho, eles encontram amigos e inimigos, e enfrentam o malvado Naraku, que também quer a joia para seus planos malignos. InuYasha é uma série de aventura, fantasia e romance, com elementos de comédia e drama.",
+    "imageUrl": "https://i0.wp.com/resenhandosonhos.com/wp-content/uploads/2021/05/inuyasha1.png",
     "facts": {
-      "yearOfBirth": "1939",
-      "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "creatorOfManga": "Rumiko Takahashi",
+      "producerOfManga": "Masashi Ikeda e Yasunao Aoki",
+      "studioOfManga": "Sunrise"
     },
     "extraInfo": {
-      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
+      "seasons": 6,
+      "episodes": 167,
+      "classification": "A12",
+      "assessment": 4.8,
+      "streaming": "Netflix",
+      "song": ["Change the World(interpretado pela banda V6)"]
     }
   },
   {
-    "id": "grace-hopper",
-    "name": "Grace Hopper",
-    "shortDescription": "Científica de la computación, creadora del primer compilador.",
-    "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
+    "id": "one-piece",
+    "name": "One Piece",
+    "shortDescription": "Aventura, Fantasia, Ficção Científica",
+    "description": "One Piece é uma série de mangá e anime criada por Eiichiro Oda. A história segue as aventuras de Monkey D. Luffy, um jovem que ganhou poderes de borracha ao comer uma fruta do diabo, e sua tripulação, os Piratas do Chapéu de Palha. Eles exploram a Grande Rota em busca do tesouro lendário chamado One Piece, que pertenceu ao falecido Rei dos Piratas, Gol D. Roger. No caminho, eles enfrentam diversos inimigos e desafios, enquanto também fazem amigos e aliados. One Piece é uma obra cheia de ação, comédia, drama e fantasia, que conquistou milhões de fãs pelo mundo.",
+    "imageUrl": "https://s2-techtudo.glbimg.com/i2HPK7IP4KyMP7fAzoTJNvlLjlk=/0x0:1200x700/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/Y/d/HMI5j9SWeMHuDqbJTcfQ/one-piece-foto.jpg",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1992",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "creatorOfManga": "Eiichiro Oda",
+      "producerOfManga": "Kônosuke Uda",
+      "studioOfManga": "Toei Animation"
     },
     "extraInfo": {
-      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
+      "seasons": 20,
+      "episodes": 1090,
+      "classification": "A12",
+      "assessment": 5.6,
+      "streaming": "Netflix",
+      "song": ["We Are(interpretada por Hiroshi Kitadan)"]
     }
   },
   {
-    "id": "margaret-hamilton",
-    "name": "Margaret Hamilton",
-    "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
-    "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
+    "id": "shaman-king",
+    "name": "Shaman King",
+    "shortDescription": "Ação, Aventura, Comédia, Sobrenatural",
+    "description": "Baseado no mangá de mesmo nome,a história segue as aventuras de Yoh Asakura, um xamã que pode se comunicar com espíritos e deuses invisíveis para as pessoas comuns. Yoh deseja se tornar o Rei Xamã, aquele que pode canalizar o poder do Grande Espírito para remodelar o mundo como quiser, vencendo o Torneio Xamã, uma competição organizada pela Tribo Patch que ocorre a cada 500 anos. Yoh enfrenta vários inimigos e aliados, incluindo seu irmão gêmeo Hao Asakura, a reencarnação de um poderoso xamã que quer exterminar todos os humanos e criar um mundo para os xamãs.",
+    "imageUrl": "https://criticalhits.com.br/wp-content/uploads/2021/08/CAPA-2.jpg",
     "facts": {
-      "yearOfBirth": "1936",
-      "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "creatorOfManga": "Hiroyuki Takei",
+      "producerOfManga": "Takeshi Furuta",
+      "studioOfManga": "Bridge"
     },
     "extraInfo": {
-      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
+      "seasons": 1,
+      "episodes": 52,
+      "classification": "A12",
+      "assessment": 4.9,
+      "streaming": "Netflix",
+      "song": ["Soul Salvation(interpretada pela cantora e atriz Megumi Mayashibara)"]
     }
   },
   {
-    "id": "radia-perlman",
-    "name": "Radia Perlman",
-    "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
-    "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
+    "id": "spy-x-family",
+    "name": "Spy x Family",
+    "shortDescription": "Ação, Comédia, Romance, Slice of Life",
+    "description": "Spy x Family é um anime que conta a história de um espião que tem que “construir uma família” para executar uma missão, sem saber que sua filha adotiva é uma telepata, e a mulher com quem ele concorda em se casar é uma assassina habilidosa. O anime é baseado no mangá de mesmo nome escrito e ilustrado por Tatsuya Endo1. A primeira temporada do anime tem 25 episódios divididos em dois cursos.O anime é uma mistura de comédia, ação, mistério e drama familiar, com personagens carismáticos e cenas emocionantes.",
+    "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/900/middle/images.terra.com/2023/09/28/spy-x-family-qxg0zpmaertx.png",
     "facts": {
-      "yearOfBirth": "1951",
-      "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "creatorOfManga": "Tatsuya Endo",
+      "producerOfManga": "Toho",
+      "studioOfManga": "Wit studioOfManga"
     },
     "extraInfo": {
-      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
+      "seasons": 2,
+      "episodes": 26,
+      "classification": "A14",
+      "assessment": 4.9,
+      "streaming": "Crunchyroll",
+      "song": ["Color de yama", "Daybreak de Eve"]
     }
   },
   {
-    "id": "shafi-goldwasser",
-    "name": "Shafi Goldwasser",
-    "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
-    "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
+    "id": "dr-stone",
+    "name": "Dr. Stone",
+    "shortDescription": "Aventura, Comédia, Ficção Científica",
+    "description": "Dr. Stone é um anime de aventura e ficção científica que se passa em um mundo pós-apocalíptico, onde toda a humanidade foi petrificada por um fenômeno misterioso. O protagonista é Senku Ishigami, um garoto genial e apaixonado pela ciência, que desperta milhares de anos depois e decide usar seu conhecimento para reconstruir a civilização. Ele conta com a ajuda de seu amigo Taiju Ooki, e enfrenta vários desafios e inimigos que têm visões diferentes sobre o futuro da humanidade. O anime é conhecido por sua precisão científica e seu humor.",
+    "imageUrl": "https://flowgames.gg/wp-content/uploads/2023/03/Dr.STONE3_-1024x576-1.jpg",
     "facts": {
-      "yearOfBirth": "1958",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "creatorOfManga": "Boichi",
+      "producerOfManga": "TOHO animation, Shueisha, 8PAN",
+      "studioOfManga": "TMS Entertainment (S1–2), Die4studioOfManga (S3–4)"
     },
     "extraInfo": {
-      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
+      "seasons": 3,
+      "episodes": 57,
+      "classification": "A14",
+      "assessment": 4.8,
+      "streaming": "Crunchyroll",
+      "song": ["Good Morning World! de Burnout Syndromes", "LIFE de Rude-α", "Rakuen de Fujifabric", "Koe? de Hatena"]
     }
   },
   {
-    "id": "chien-shiung-wu",
-    "name": "Chien-Shiung Wu",
-    "shortDescription": "Física experimental, contribuyó a la física nuclear.",
-    "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
+    "id": "mashle",
+    "name": "Mashle",
+    "shortDescription": "Aventura, Comédia, Ficção Científica",
+    "description": "magia e músculos é um anime de comédia e fantasia que conta a história de Mash Burnedead, um jovem que não tem poderes mágicos em um mundo onde todos são capazes de usar magia. Para proteger seu segredo e sua vida pacífica com seu avô, ele se matricula na Escola de Magia Easton Academy, onde terá que enfrentar os maiores talentos do mundo mágico usando apenas seus músculos. O anime é uma paródia de obras como Harry Potter, One Punch Man e Black Clover, e mistura humor, ação e aventura.",
+    "imageUrl": "https://image.tmdb.org/t/p/original/p1swd15DRtCnNj20U904dbXeVsi.jpg",
     "facts": {
-      "yearOfBirth": "1912",
-      "yearOfDeath": "1997",
-      "birthPlace": "Liuhe, Taicang, China",
-      "mainField": "Física"
+      "creatorOfManga": "Hajime Komoto",
+      "producerOfManga": "TOHO animation, Shueisha, INSPION Edge",
+      "studioOfManga": "A1 Pictures"
     },
     "extraInfo": {
-      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
+      "seasons": 2,
+      "episodes": 14,
+      "classification": "A12",
+      "assessment": 4.8,
+      "streaming": "Crunchyroll",
+      "song": ["Knock Out de Taiiku Okazaki", "Shū Cream Funk” (“Cream Puff Funk”) de Philosophy no Dance"]
     }
   },
   {
-    "id": "hedy-lamarr",
-    "name": "Hedy Lamarr",
-    "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
-    "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
+    "id": "kimi-ni-todoke",
+    "name": "Kimi ni Todoke",
+    "shortDescription": "Drama, Romance, Comédia",
+    "description": "Kimi ni Todoke é um anime romântico que conta a história de Sawako Kuronuma, uma garota tímida e bondosa que é confundida com a personagem de terror Sadako por causa de sua aparência. Ela deseja fazer amigos e se aproximar do seu ídolo, o popular Shouta Kazehaya, que é gentil e amigável com ela. Ao longo da série, Sawako e Kazehaya enfrentam vários desafios e obstáculos para expressar seus sentimentos e construir um relacionamento. O anime tem duas temporadas com 25 e 13 episódios, respectivamente, e é baseado no mangá de mesmo nome de Karuho Shiina.",
+    "imageUrl": "https://cinema10.com.br/upload/series/series_2758_kimi-ni-todoke-2_1_Easy-Resize.com.jpg",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "2000",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Actuación, Física"
+      "creatorOfManga": "Karuho Shiina",
+      "producerOfManga": "Nippon Television Network, Shueisha",
+      "studioOfManga": "Production I.G"
     },
     "extraInfo": {
-      "imageSource": "https://www.sparkfun.com/news/6147"
+      "seasons": 2,
+      "episodes": 38,
+      "classification": "A10",
+      "assessment": 4.8,
+      "streaming": "Netflix",
+      "song": ["Kimi ni Todoke de Tanizawa Tomofumi", "Kataomoi de Chara", "Sawakaze deTomofumi Tanizawa", "Kimi ni Todoke por May’s"]
     }
   },
   {
-    "id": "maria-goeppert-mayer",
-    "name": "Maria Goeppert Mayer",
-    "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
-    "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
+    "id": "sword-art-online",
+    "name": "Sword Art Online",
+    "shortDescription": "Ação, Aventura, Fantasia, Romance",
+    "description": "É um anime baseado em uma série de light novels escrita por Reki Kawahara. A história se passa em um futuro próximo, onde os jogadores podem entrar em um mundo virtual chamado Sword Art Online, usando um capacete especial chamado NerveGear. Se eles morrerem no jogo, morrem na vida real. O protagonista é Kirito, um jogador solitário que foi um dos beta testers do jogo. Ele se envolve em várias aventuras e desafios, junto com outros personagens, como Asuna, uma espadachim habilidosa, e Yui, uma inteligência artificial que se torna sua filha adotiva.",
+    "imageUrl": "https://s.aficionados.com.br/imagens/swordartonline.jpg",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1972",
-      "birthPlace": "Kattowitz, Alemania",
-      "mainField": "Física"
+      "creatorOfManga": "Reki Kawahara",
+      "producerOfManga": "Aniplex, Genco, DAX Production e mais",
+      "studioOfManga": "A-1 Pictures"
     },
     "extraInfo": {
-      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
+      "seasons": 4,
+      "episodes": 96,
+      "classification": "A14",
+      "assessment": 4.7,
+      "streaming": "Crunchyroll",
+      "song": ["Crossing Field de LiSA", "Innocence de Eir Aoi", "Yume Sekai de Haruka Tomatsu", "Overfly de Luna Haruna", "entre outras"]
     }
   },
   {
-    "id": "lise-meitner",
-    "name": "Lise Meitner",
-    "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
-    "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
+    "id": "bleach",
+    "name": "Bleach",
+    "shortDescription": "Ação, Aventura, Fantasia, Sobrenatural",
+    "description": "Bleach é um anime baseado no mangá de mesmo nome de Tite Kubo. A história segue as aventuras de Ichigo Kurosaki, um estudante que pode ver fantasmas e que ganha os poderes de um Shinigami (Ceifador de Almas) de Rukia Kuchiki. Com seus novos poderes, ele tem que defender os humanos dos espíritos malignos chamados Hollows e guiar as almas dos mortos para a Sociedade das Almas. O anime adapta o mangá e também inclui arcos originais com personagens e histórias exclusivas do anime.",
+    "imageUrl": "https://roteironerd.com/wp-content/uploads/2021/08/bleach.jpg",
     "facts": {
-      "yearOfBirth": "1878",
-      "yearOfDeath": "1968",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Física"
+      "creatorOfManga": "Tite Kubo",
+      "producerOfManga": "Aniplex, Genco, DAX Production e mais",
+      "studioOfManga": "Pierrot"
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
+      "seasons": 16,
+      "episodes": 366,
+      "classification": "A12",
+      "assessment": 4.7,
+      "streaming": "Star+",
+      "song": ["O anime tem várias músicas, cantadas por diferentes artistas como LiSA, Eir Aoi, Luna Haruna, Shirō Sagisu, entre outros"]
     }
   },
   {
-    "id": "sau-lan-wu",
-    "name": "Sau Lan Wu",
-    "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
-    "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
+    "id": "my-hero-academia",
+    "name": "My Hero Academia",
+    "shortDescription": "Aventura, Fantasia Científica, História de Super-Herói, Comédia",
+    "description": "My Hero Academia é um mangá e anime japonês criado por Kōhei Horikoshi. A história se passa em um mundo onde cerca de 80% da população humana possui superpoderes chamados “Quirks”. O protagonista é Izuku Midoriya, um garoto que nasceu sem um Quirk, mas ainda assim sonha em se tornar um super-herói. Ele é escolhido pelo maior herói do mundo, All Might, para receber o seu Quirk e se matricular em uma prestigiosa escola para heróis em treinamento. O anime acompanha as aventuras de Midoriya e seus amigos enquanto eles enfrentam vilões, desafios e rivalidades.",
+    "imageUrl": "https://forum.pokemonmillennium.net/uploads/monthly_2019_03/2.jpg.c7b5d47a8392eec9aa5ae125dda0e930.jpg",
     "facts": {
-      "yearOfBirth": "1940",
-      "birthPlace": "Hong Kong, China",
-      "mainField": "Física de Partículas"
+      "creatorOfManga": "Kōhei Horikoshi",
+      "producerOfManga": "Aniplex, Genco, DAX Production e mais",
+      "studioOfManga": "Bones"
     },
     "extraInfo": {
-      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
+      "seasons": 6,
+      "episodes": 138,
+      "classification": "A12",
+      "assessment": 4.7,
+      "streaming": "Crunchyroll",
+      "song": ["I Am Here! de Yuki Hayashi", "You Say Run(Re-build) de Yuki Hayashi", "Bokurano de Eve", "Heroes de Brian the Sun", "entre outras"]
     }
   },
   {
-    "id": "jocelyn-bell-burnell",
-    "name": "Jocelyn Bell Burnell",
-    "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
-    "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
+    "id": "attack-on-titan",
+    "name": "Attack on Titan",
+    "shortDescription": "Ação, Fantasia Sombria, Pós-Apocalíptico",
+    "description": "O anime que se passa em um mundo onde a humanidade vive em cidades cercadas por três muralhas gigantes, que a protegem de humanoides devoradores de humanos chamados Titãs. A história segue Eren Yeager, que jura exterminar os Titãs depois que eles destroem sua cidade natal e matam sua mãe. Ao longo da série, ele descobre os segredos por trás da origem dos Titãs, da história do mundo e de sua própria família. Ele também se envolve em uma guerra contra o império de Marley, que quer usar o poder dos Titãs para dominar o mundo.",
+    "imageUrl": "https://img.asmedia.epimg.net/resizer/IRU55Ciw51ZLhGmGC54wy4boPEc=/644x362/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/WMUS4CCCKBIJZDGCUUQ7OZLZ4A.jpg",
     "facts": {
-      "yearOfBirth": "1943",
-      "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica"
+      "creatorOfManga": "Hajime Isayama",
+      "producerOfManga": "Production I.G",
+      "studioOfManga": "Wit studioOfManga, MAPPA"
     },
     "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
+      "seasons": 4,
+      "episodes": 98,
+      "classification": "A18",
+      "assessment": 4.9,
+      "streaming": "Crunchyroll",
+      "song": ["Algumas das canções mais populares são Guren no Yumiya e Jiyuu no Tsubasa de Linked Horizon", "Shinzou wo Sasageyo! de Linked Horizon", "Red Swan de Yoshiki feat. Hyde", "My War de Shinsei Kamattechan"]
     }
   },
   {
-    "id": "dorothy-crowfoot-hodgkin",
-    "name": "Dorothy Crowfoot Hodgkin",
-    "shortDescription": "Química, ganadora del Premio Nobel de Química.",
-    "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
+    "id": "black-clover",
+    "name": "Black Clover",
+    "shortDescription": "Aventura, Fantasia, Shōnen",
+    "description": "Black Clover é um mangá e anime japonês escrito e ilustrado por Yūki Tabata. A história se passa em um mundo onde todos têm a capacidade de usar magia, mas Asta, um garoto órfão, nasceu sem nenhum poder mágico. Ele recebe um raro grimório de cinco folhas que lhe concede habilidades anti-mágicas. Junto com seu amigo e rival Yuno, que recebeu um grimório de quatro folhas, ele se junta aos Cavaleiros Mágicos do Reino de Clover, com o objetivo de se tornar o Rei Mago.",
+    "imageUrl": "https://sm.ign.com/ign_in/screenshot/default/black-clover-m_u9bv.jpg",
     "facts": {
-      "yearOfBirth": "1910",
-      "yearOfDeath": "1994",
-      "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-      "mainField": "Química"
+      "creatorOfManga": "Yuki Tabata",
+      "producerOfManga": "Pierrot",
+      "studioOfManga": "Pierrot"
     },
     "extraInfo": {
-      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
+      "seasons": 4,
+      "episodes": 170,
+      "classification": "A14",
+      "assessment": 4.8,
+      "streaming": "Crunchyroll",
+      "song": ["Algumas das canções mais populares são Haruka Mirai e Paint It Black de Kankaku Piero", "Black Rover e Guess Who Is Back de Vickeblanka", "Rakugaki Page e Black Catcher de Black Clover All Stars", "Everlasting Shine e Eien ni Hikare de Tomorrow X Together"]
     }
   },
   {
-    "id": "marie-curie",
-    "name": "Marie Curie",
-    "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
-    "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
+    "id": "somali-and-the-forest-spirit",
+    "name": "Somali and the Forest Spirit",
+    "shortDescription": "Fantasia, Aventura, Slice of Life",
+    "description": "Somali and the Forest Spirit é uma série de anime de fantasia que conta a história de um golem, um protetor da floresta, e uma menina humana, Somali, que ele encontra em seu território. Em um mundo dominado por monstros, os humanos são perseguidos e quase extintos. O golem decide levar Somali em uma jornada em busca de outros humanos, antes que seu tempo de vida acabe. No caminho, eles encontram vários tipos de criaturas e situações, e desenvolvem um forte laço de pai e filha.",
+    "imageUrl": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/0d3f5a0cd81c2b88126b4a62dd6f7105.jpeg",
     "facts": {
-      "yearOfBirth": "1867",
-      "yearOfDeath": "1934",
-      "birthPlace": "Varsovia, Polonia",
-      "mainField": "Física y Química"
+      "creatorOfManga": "Yako Gureishi",
+      "producerOfManga": "Crunchyroll",
+      "studioOfManga": "Satelight, Hornets"
     },
     "extraInfo": {
-      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
+      "seasons": 1,
+      "episodes": 12,
+      "classification": "A12",
+      "assessment": 4.8,
+      "streaming": "Crunchyroll",
+      "song": ["Arigatō wa Kocchi no Kotoba de Naotarō Moriyama", "Kokoro Somali de Inori Minase"]
     }
   },
   {
-    "id": "marjory-stephenson",
-    "name": "Marjory Stephenson",
-    "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
-    "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
+    "id": "naruto-shippuden",
+    "name": "Naruto Shippuden",
+    "shortDescription": "Ação, Artes Marciais, Comédia, Shounen, Superpoder",
+    "description": "Naruto Shippuden é a continuação do anime Naruto, na segunda parte da série, Naruto e seus amigos enfrentam a ameaça da Akatsuki, uma organização criminosa que busca capturar as nove bestas com caudas, que são poderosas criaturas seladas dentro de alguns ninjas, incluindo o próprio Naruto. Ao longo da série, Naruto também tenta trazer de volta seu grande amigo Sasuke Uchiha, que se aliou ao vilão Orochimaru para se vingar de seu irmão Itachi, que matou todo o seu clã.",
+    "imageUrl": "https://tm.ibxk.com.br/2021/10/05/05091846887061.jpg",
     "facts": {
-      "yearOfBirth": "1885",
-      "yearOfDeath": "1948",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Microbiología, Bioquímica"
+      "creatorOfManga": "Masashi Kishimoto",
+      "producerOfManga": "TV Tokyo, em parceria com a Aniplex, a Bandai e mais",
+      "studioOfManga": "Pierrot"
     },
     "extraInfo": {
-      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
+      "seasons": 21,
+      "episodes": 500,
+      "classification": "A14",
+      "assessment": 4.7,
+      "streaming": "Crunchyroll",
+      "song": ["Blue Bird", "Spinning World", "Diver", "Niwakaamenimo Makezu"]
     }
   },
   {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
+    "id": "fullmetal-alchemist",
+    "name": "Fullmetal Alchemist",
+    "shortDescription": "Ação, Aventura, Comédia, Drama, Fantasia, Shounen",
+    "description": "Fullmetal Alchemist é um mangá e anime que conta a história de dois irmãos alquimistas, Edward e Alphonse Elric, que buscam a pedra filosofal para restaurar seus corpos após uma tentativa fracassada de ressuscitar sua mãe usando alquimia. No entanto, eles descobrem que há mais por trás da lendária pedra do que imaginam, e se envolvem em uma batalha sombria que envolve o destino de todo o país de Amestris. A série mistura aventura, fantasia, steampunk e filosofia, e é considerada uma das melhores obras do gênero shōnen.",
+    "imageUrl": "https://criticalhits.com.br/wp-content/uploads/2023/08/fullmetal-alchemist-brothers.jpg",
     "facts": {
-      "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
+      "creatorOfManga": "Hiromu Arakawa",
+      "producerOfManga": "TV Tokyo, em parceria com a Aniplex e outros",
+      "studioOfManga": "studioOfManga Bones"
     },
     "extraInfo": {
-      "imageSource": ""
+      "seasons": 1,
+      "episodes": 51,
+      "classification": "A14",
+      "assessment": 4.9,
+      "streaming": "Crunchyroll",
+      "song": ["Melissa", "Ready Steady Go", "Rewrite", "Und"]
     }
-  }
+  },
+
 ];
