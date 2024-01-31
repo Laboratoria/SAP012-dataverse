@@ -1,4 +1,4 @@
-import { computeStats, filterBy, sortBy } from './dataFunctions.js';
+import {filterBy, sortBy, computeStats } from './dataFunctions.js';
 
 import { renderItems, renderListClassification } from './view.js';
 
