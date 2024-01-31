@@ -4,6 +4,7 @@ import { data as fakeData } from './data.js';
 // console.log(fakeData);
 
 describe('example', () => {
+  fakeData
 
   it('returns `example`', () => {
     fakeData.length;
