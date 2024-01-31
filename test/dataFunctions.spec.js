@@ -4,7 +4,8 @@ import { data as fakeData } from './data.js';
 // console.log(fakeData);
 
 describe('example', () => {
-  fakeData;
+  fakeData
+
   it('returns `example`', () => {
     expect(example()).toBe('example');
   });

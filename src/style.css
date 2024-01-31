@@ -33,21 +33,13 @@ header h1 {
   font-weight: 500;
   line-height: normal;
 }
-#menu-suspenso{
-  border: blue solid 2px;
+#filtro {
   display: flex;
   align-items: start;
   justify-content: flex-start;
   flex-direction: row;
   margin-left: auto;
-  height: 40px;
-  width: 30%;
-
 }
-.meu-menu{
-  margin-left: auto;
-}
-
 main {
   border: solid 1.5px purple;
   display: flex;
@@ -136,10 +128,10 @@ ul{
     cursor: pointer;
   }
   footer {
-    background-color:#FFA500;
+    background-color: #FFA500;
     width: 220px;
     height: 15px;
-    position:fixed;
+    position: fixed;
     bottom: 0;
     width: 100%;
 
