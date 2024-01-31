@@ -1,5 +1,7 @@
-import { filterBy, sortBy } from './dataFunctions.js';
-import { renderItems } from './view.js';
+import { computeStats, filterBy, sortBy } from './dataFunctions.js';
+
+import { renderItems, renderListClassification } from './view.js';
+
 import data from './data/dataset.js';
 
 let dadosExibidos = data;
@@ -43,3 +45,20 @@ ordenacao.addEventListener('change', (event) => {
 })
 
 // console.log(example, renderItems(data), data);
+
+
+//estatistica
+const classificationList = document.querySelector('.estatisticas');
+classificationList.appendChild(renderListClassification(computeStats(data)));
+
+
+//modal
+window.openModal = (id) => {
+  const modal = document.querySelector("#modal-" + id);
+  modal.style.display = "block";
+}
+
+window.closeModal = (id) => {
+  const modal = document.querySelector("#modal-" + id);
+  modal.style.display = "none";
+}
