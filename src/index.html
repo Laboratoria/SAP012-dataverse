@@ -1,11 +1,61 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Dataverse</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <script src="main.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css" />
+  <title>Carreiras Tech - Dataverse</title>
+</head>
+
+<body>
+  <script src="main.js" type="module"></script>
+  <header>
+    <h1>Carreiras Tech
+      <img src="duvida.png" alt="ícone de mulher com dúvida." />
+    </h1>
+  </header>
+  <main>
+
+    <h2>Profissões Tech</h2>
+
+    <div class="comandos">
+      <label for="filtro">Filtrar por:</label>
+      <select id="filtro" data-testid="selecionar-filtro" name="tipo">
+        <option value="formacaoSugerida">Formação Sugerida</option>
+        <option value="administracao">Administração</option>
+        <option value="cienciaDaComputacao">Ciência da Computação</option>
+        <option value="design">Design</option>
+        <option value="designDeInterface">Design de Interface</option>
+        <option value="designDeJogos">Design de jogos</option>
+        <option value="engDeEletronica">Engenharia de Eletrônica</option>
+        <option value="engDeProducao">Engenharia de Produção</option>
+        <option value="engDeRedes">Engenharia de Redes</option>
+        <option value="engDeSoftware">Engenharia de Software</option>
+        <option value="engEletrica">Engenharia Elétrica</option>
+        <option value="estatistica">Estatística</option>
+        <option value="marketing">Marketing</option>
+        <option value="matematica">Matemática</option>
+        <option value="redesDeComputadores">Redes de Computadores</option>
+        <option value="segurancaDainformacao">Segurança da Informação</option>
+        <option value="sistemasDeInformacao">Sistemas de Informação</option>
+      </select>
+
+      <label for="ordenacao">Ordenar por:</label>
+      <select id="ordenacao" data-testid="selecionar-ordenar" name="tipoDeOrdem">
+        <option>Média Salarial</option>
+        <option value="asc">Do menor para o maior</option>
+        <option value="desc">Do maior para o menor</option>
+      </select>
+
+      <button id="reset-button" data-testid="botao-limpar">Limpar</button>
+    </div>
+
+    <div id="root">
+    </div>
+  </main>
+  <footer>
+    <p>Desenvolvido por Camila Sukhada e Fabine Specian</p>
+  </footer>
+</body>
+
 </html>
