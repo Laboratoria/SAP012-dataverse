@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+
+* {
+    /* margin: ; */
+    padding: 0;
+    font-size:medium;
+    color: #DECDC1;
+    background-color: #0e0613;
+    text-align: center;
+}
+
+:root {
+    --color-preto: #0e0613;
+    --color-laranja: #dd7930;
+    --color-marrom: #795025;
+    --color-lilas: #762697;
+    --color-branco: #DECDC1;
+    --color-roxo: #561d67;
+}
+
+img {
+    background-size: contain;
+    max-height: 15%;
+    width: 100%;
+}
+
+header, footer {
+    padding: 2.5%;
+    background-color: var(--color-roxo);
+    justify-content:center;
+    
+}
+
+select, #botaoLimpar {
+    color: #ffffff;
+    border: 3px solid var(--color-roxo);
+    border-radius: 20px;
+    padding: 10px;
+    line-height: 100%;
+    margin: 10px;
+    margin-bottom: 1rem;
+    text-align: center;
+    background-color: var(--color-lilas);
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 2px 2px var(--color-preto)
+}
+
+select, #botaoLimpar:hover {
+    background-color: var(--color-roxo);
+    box-shadow: var(--color-preto);
+}
+
+ul {
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+
+}
+
+.cardsUnitarios {
+    background-color: var(--color-roxo);
+    margin: 1rem;
+    border: 3px solid #252525;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: right;
+    display: grid; 
+
+    flex-direction: column;
+} 
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-amarelo: FFCE22;
+  --color-azul: 054A91;
+}
+header  {
+  width: 100%;
+  background-color: var(--color-amarelo);
+}
+
+footer {
+  background-color: aqua;
+}
+

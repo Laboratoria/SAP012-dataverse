@@ -1,3 +1,16 @@
+
+### Definição do produto
+
+- [ ]  Documente brevemente o seu trabalho no arquivo `README.md` do seu repositório, contando como foi o seu processo de design e como você acredita que o produto resolve o problema (ou problemas) que sua usuária enfrenta.
+
+
+
+
+
+
+
+
+<!--
 # Dataverse
 
 ## Índice

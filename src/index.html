@@ -1,11 +1,114 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Dataverse</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <script src="main.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Dataverse - Celebridades</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <div>
+      <img src="imagens/celebCapa2.png" alt="Nome do site: Celebridades" />
+      <h1>algo no h1.</h1>
+    </div>
+  </header>
+
+  <main>
+    <nav>
+      <div class="caixaTexto">
+        <h1>
+          Aqui você encontra os tópicos mais pesquisados sobre os famosos.
+          Faça sua escolha selecionando por filtro.
+        </h1>
+        <!--<span class="titles_length">24 famosos</span> para as métricas -->
+      </div>
+
+      <!--sessão dos filtros -->
+      <div class="painelEscolhas">
+        <section class="painelInteratividade">
+          <label for="filtroNacionalidade" id="selecionaNacionalidade" class="filtros">Nacionalidade:</label>
+          <select id="filtroNacionalidade" name="nacionalidade" data-testid="select-filter">
+            <option id="todosNacionalidade" value="todos" selected="" hidden="" disabled="">
+              Selecione
+            </option>
+            <option value="Brasileira">Brasileira</option>
+            <option value="Norte-Americana">Norte-Americana</option>
+            <option value="Sul-Africana">Sul-Africana</option>
+            <option value="Barbadiana">Barbadiana</option>
+            <option value="Suíça">Suíça</option>
+            <option value="Britânica">Britânica</option>
+            <option value="Portuguesa">Portuguesa</option>
+            <option value="Colombiana">Colombiana</option>
+            <option value="Paquistanesa">Paquistanesa</option>
+          </select>
+
+          <!--
+        <select data-testid="select-sort" name="Selecione" id="areaDeAtuacao">
+          <option value="vazio">Selecione</option>
+          <option value="vazio">Selecione</option>
+          <option value="musica">Música</option>
+          <option value="esportes">Esportes</option>
+          <option value="cinema">Cinema</option>
+          <option value="norteAmericara">Moda</option>
+          <option value="brasileira">Cultura Pop</option>
+          <option value="norteAmericara">Ativismo</option>
+          <option value="brasileira">Ciências e Tecnologia</option>
+        </select>
+
+        <select data-testid="select-sort" name="Selecione" id="curiosidade">
+          <option value="vazio">Selecione</option>
+          <option value="pessoal">Vida Pessoal</option>
+          <option value="profissional">Vida Profissional</option>
+        </select>
+       -->
+
+          <!--repetir o exemplo para os outro filtros-->
+
+          <!--sessão para ordenação-->
+          <label for="filtroOrdem" id="selecionaOrdem" class="filtros">Ordenar por:</label>
+          <select id="filtroOrdem" name="escolherOrdem" data-testid="select-sort">
+            <option id="todosOrdem" value="todos" selected="" hidden="" disabled="">
+              Selecione
+            </option>
+            <option value="asc">A - Z</option>
+            <option value="desc">Z - A</option>
+          </select>
+
+          <!--criar botão de limpar-->
+          <button id="botaoLimpar" data-testid="button-clear">
+            Limpar
+          </button>
+        </section>
+      </div>
+    </nav>
+
+    <!--sessão para os cards-->
+    <section id="root" class="listaCards">
+      <!-- <ul class="conjuntoCards">
+        <li itemscope="" itemtype="listaCelrbridades" class="conjuntoCards">
+          <div class="conjuntoCards">
+            <dl itemscope="" itemtype="#">
+              <dt><img
+                  src="https://br.web.img2.acsta.net/pictures/20/11/19/16/21/4456129.jpg"
+                  alt="Cantora Anitta" itemprop="Anitta" class="conteudoCard"></dt>
+              <dd itemprop="name" class="nomeCard">Anitta</dd>
+              <dd itemprop="sort-order" class="areaDeAtuacao">Música</dd>
+              <dd itemprop="shortDescription" class="shortDescription">Cantora e compositora.
+              </dd>
+              <dd itemprop="facts" class="curiosidade">É uma defensora dos direitos LGBTQ+.</dd>
+            </dl>
+          </div>
+        </li>
+      </ul>  -->
+    </section>
+  </main>
+
+  <footer>Criado por <strong>Bia Carneiro</strong>.</footer>
+
+  <script src="main.js" type="module"></script>
+</body>
+
+  <footer>Criado por <strong>Bia Carneiro</strong> e <strong>Selly Lima</strong>.</footer>
 </html>
