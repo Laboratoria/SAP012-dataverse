@@ -1,378 +1,293 @@
 export default [
   {
-    "id": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
+    "id": "pousando-no-amor",
+    "name": "Pousando no amor",
+    "shortDescription": "Garota faz pouso na Coréia do Norte, oficial do exécito a protege e se apaixona por ela.",
+    "description": "O K-drama narra a história de uma empresária sul-coreana e um capitão do exército norte-coreano, cujo romance floresce depois que a jovem faz um pouso de emergência em território estrangeiro. Enquadrando-se nos moldes das clássicas comédias românticas, com tons de amizade e das emocionantes histórias de amor proibido, o oficial se vê obrigado a manter em segredo e proteger seu amor, enquanto ambos enfrentam não apenas seus próprios conflitos internos, mas também as tensões externas que ameaçam separá-los. Com ajuda de amigos lutam para se manterem juntos!.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BMzRiZWUyN2YtNDI4YS00NTg2LTg0OTgtMGI2ZjU4ODQ4Yjk3XkEyXkFqcGdeQXVyNTI5NjIyMw@@.jpg",
     "facts": {
-      "yearOfBirth": "1815",
-      "yearOfDeath": "1852",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
+      "doramaRating": 8.7,
+      "doramaGender": "Romance",
+      "doramaAno": 2019
     }
   },
   {
-    "id": "emmy-noether",
-    "name": "Emmy Noether",
-    "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-    "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
+    "id": "tudo-bem-nao-ser-normal",
+    "name": "Tudo bem não ser normal",
+    "shortDescription": "O caminho para a cura emocional para uma escritora de livros infantis e um cuidador quando seus caminhos se cruzam.",
+    "description": "No drama Tudo Bem Não Ser Normal, a escritora de livros infantis e o psiquiatra Lee Shi-joon têm seus destinos entrelaçados, oferecendo um caminho para a cura emocional. Enquanto Lee Shi-joon enfrenta desafios ao tratar pacientes no hospital psiquiátrico Hyunsung, ambos questionam as noções convencionais de normalidade. Essa conexão inesperada entre dois mundos distintos proporciona uma jornada de autodescoberta e compreensão, onde a cura emocional se torna uma possibilidade real através do entendimento mútuo uma historia de amor escrita com mistérios.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BYTk0Nzk5ZWYtYTNlZi00YjBjLWJhYjctMWMwMmYyMDA5ZjJmXkEyXkFqcGdeQXVyNDY5MjMyNTg@.jpg",
     "facts": {
-      "yearOfBirth": "1882",
-      "yearOfDeath": "1935",
-      "birthPlace": "Erlangen, Alemania",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
+      "doramaRating": 8.6,
+      "doramaGender": "Drama",
+      "doramaAno": 2020
     }
   },
   {
-    "id": "hypatia-de-alejandria",
-    "name": "Hypatia de Alejandría",
-    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
+    "id": "Apostando-alto",
+    "name": "Apostando alto",
+    "shortDescription": "Jovens empresários competem por sucesso e amor na indústria de alta tecnologia da Coreia.",
+    "description": "O k-drama narra a história de Seo Dal-mi, uma jovem aspirante a CEO de uma grande empresa, cuja trajetória foi moldada fortemente pela separação dos pais na infância quando, em meio a divisão familiar, sua irmã, Won In-jae, escolheu ir com sua mãe e ela ficou com o pai que assim como ela, tinha uma quantidade enorme de sonhos de montar sua própria empresa, mas as adversidades que o cercam o privam de realizar esse sonho e fazem com que a vida de Dal-Mi seja bem menos fácil do que a de sua irmã.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BZGEzMjMxNmItYWM2MC00MGU3LTk2YmQtYjUyOTVjYTRlZDQ3XkEyXkFqcGdeQXVyNDU4MDQ0MjM@.jpg",
     "facts": {
-      "yearOfBirth": "circa 360",
-      "yearOfDeath": "415",
-      "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
+      "doramaRating": 8.0,
+      "doramaGender": "Comédia",
+      "doramaAno": 2020
     }
   },
   {
-    "id": "marjorie-lee-browne",
-    "name": "Marjorie Lee Browne",
-    "shortDescription": "Matemática, contribuyó a la teoría de números.",
-    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
+    "id": "the-good-bad-mother",
+    "name": "The good bad mother",
+    "shortDescription": "Após acidente, mãe dedica-se a ajudar filho com amnésia, agora com capacidades intelectuais de criança.",
+    "description": "Em The Good Bad Mother, Young Soon é uma mãe solo que se dedicou integralmente ao seu filho. Kang Ho cresceu se sentindo pressionado pela criação rígida da mãe e, após se tornar um dos maiores promotores da Coréia do Sul, se distanciou. Após sofrer um acidente cuja consequência foi uma forte amnésia, ele volta a ser uma criança mentalmente. Kang Ho precisa voltar para sua cidade natal e aos cuidados de Young Soon, com a  ajuda de sua amiga de infância Mi Joo. Em uma jornada pela recuperação, da sua mente, e também para reatar o laço familiar.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BYTU5ZmZkNTQtMzNiZi00ZTQ5LTg2YjAtZDNhZTljOGNkZmQ1XkEyXkFqcGdeQXVyMTU2MjY2Mjk3.jpg",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "1979",
-      "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
+      "doramaRating": 8.4,
+      "doramaGender": "Drama",
+      "doramaAno": 2023
     }
   },
   {
-    "id": "shakuntala-devi",
-    "name": "Shakuntala Devi",
-    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
-    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
+    "id": "o-rei-eterno",
+    "name": "O rei eterno",
+    "shortDescription": "Imperador coreano viaja por portal, encontra detetive mal-humorada em mundo paralelo.",
+    "description": "O Rei eterno conta  a história de Lee Gon um imperador coreano que viu seu pai ser assassinado por um tio seu por causa de uma flauta de bambu, a pobre criança quase acaba morta junto ao seu pai não fosse por uma mulher mascarada que ele vem procurando à 25 anos incansavelmente, em meio essa procura Lee Gon acaba encontrando uma espécie de fenda temporal que o leva a um mundo paralelo onde então consegue encontrar o que procura.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BMDk2MDAyNmYtY2VlNS00N2EzLWE4ZDEtMmI0N2ViYzk4ODU4XkEyXkFqcGdeQXVyNjc3MjQzNTI@.jpg",
     "facts": {
-      "yearOfBirth": "1929",
-      "yearOfDeath": "2013",
-      "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+      "doramaRating": 8.1,
+      "doramaGender": "Romance",
+      "doramaAno": 2020
     }
   },
   {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
+    "id": "chocolate",
+    "name": "Chocolate",
+    "shortDescription": "Médico e chef, ligados por refeições do passado, se reencontram ao trabalhar em cuidados paliativos, encontrando significado juntos.",
+    "description": "Lee Kang (Yoon Kye-Sang) cresceu numa pequena cidade litorânea, sua mãe tinha um restaurante qual eles viviam muitos felizes, tanto que ele queria muito ser cozinheiro quando crescesse. Mas, foi nesta época que ele conheceu Moon Cha-yeong (Ha Ji-Won), uma menina que foi criada para ser uma super-estrela, mas por causa de um momento de amizade e compaixão, ela descobriu não apenas um novo amigo, mas também seu primeiro amor. Mas, nem toda história de amor é tudo alinhado e perfeito, contratempos afastou eles dois, e também seus destinos.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BN2YxN2RhMWYtNjY2Yy00NmIzLWE5NGMtNjZkNTgzNGRiYzExXkEyXkFqcGdeQXVyMzE4MDkyNTA@.jpg",
     "facts": {
-      "yearOfBirth": "1850",
-      "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+      "doramaRating": 7.6,
+      "doramaGender": "Drama",
+      "doramaAno": 2019 - 2020
     }
   },
   {
-    "id": "yoko-shimomura",
-    "name": "Yoko Shimomura",
-    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
-    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
+    "id": "nosso-destino",
+    "name": "Nosso destino",
+    "shortDescription": "Lee Hong Jo, dedicada funcionária pública, recebe um baú antigo e uma chave para quebrar uma maldição.",
+    "description": "Na juventude, Seo Hwi-young e Yoon Geu-rim se entregam a um amor ardente, porém, separados por circunstâncias inesperadas. Anos depois, o destino os entrelaça novamente, desafiando-os com obstáculos pessoais e profissionais. Em Nosso Destino, eles reavivam as chamas de um amor há muito adormecido, enfrentando juntos as vicissitudes da vida. Determinados a transcender as limitações impostas pelo tempo e pelas circunstâncias, encontram força mútua para reconstruir o que perderam, numa saga de amor que desafia todas as probabilidades e renova a esperança no poder do destino.",
+    "imageUrl": "https://i.mydramalist.com/eY8Q0Y_4c.jpg",
     "facts": {
-      "yearOfBirth": "1967",
-      "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
+      "doramaRating": 7.7,
+      "doramaGender": "Drama",
+      "doramaAno": 2023
     }
   },
   {
-    "id": "maryam-mirzakhani",
-    "name": "Maryam Mirzakhani",
-    "shortDescription": "Matemática, ganadora del Premio Fields.",
-    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
+    "id": "amor-oculto",
+    "name": "Amor oculto",
+    "shortDescription": " Sang Zhi se apaixona por Duan Jia Xu, desencadeando uma história de amor.",
+    "description": "Em Amor Oculto, uma garota desenvolve uma paixão ingênua pelo amigo do irmão mais velho. Anos mais tarde, eles se reencontram e têm a oportunidade de viver um romance de verdade, não só nos sonhos. No drama chinês, Sang Zhi (Zhao Lusi) se apaixona por Duan Jixau (Chen Zheyuan) amigo de seu irmão, sete anos mais velho, e sonha com ele desde a primeira vez que o encontrou em sua casa. Após perderem o contato na adolescência, eles se reencontram na faculdade e, com a chegada da maturidade, a relação deles vai ganhando outras cores.",
+    "imageUrl": "https://i.mydramalist.com/x4vJO3_4f.jpg",
     "facts": {
-      "yearOfBirth": "1977",
-      "yearOfDeath": "2017",
-      "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
+      "doramaRating": 8.7,
+      "doramaGender": "Drama",
+      "doramaAno": 2023
     }
   },
   {
-    "id": "adele-goldberg",
-    "name": "Adele Goldberg",
-    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
-    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
+    "id": "sr-Rainha",
+    "name": "Sr. Rainha",
+    "shortDescription": "Chef preso no corpo da rainha em Joseon desencadeia caos e aventuras surreais.",
+    "description": "Tudo parece ir bem, até que Bong-hwan faz um prato ruim para um embaixador e acaba sendo perseguido pela polícia. Com a confusão, o chef cai em uma piscina e vai parar no século 19, no corpo da Rainha Kim So-yong. Enquanto procura uma forma de voltar para o seu corpo, precisa lidar com as obrigações do reino e outros membros da realeza: o Rei Cheoljong , que aparenta ser tranquilo mas esconde alguns segredos; a Rainha Viúva Sunwon , que nutre uma fome oculta por poder; e Kim Jwa-geun, ambicioso irmão da Rainha Sunwoon.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BODc2MmI5ODAtOWI0Zi00ZGY4LTgxZjgtYzY0NWVhMDVmMWY2XkEyXkFqcGdeQXVyNDY5MjMyNTg@.jpg",
     "facts": {
-      "yearOfBirth": "1945",
-      "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
+      "doramaRating": 8.6,
+      "doramaGender": "Comédia",
+      "doramaAno": 2020
     }
   },
   {
-    "id": "barbara-liskov",
-    "name": "Barbara Liskov",
-    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
-    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
+    "id": "uma-advogada-extraordinaria",
+    "name": "Uma Advogada Extraordinária",
+    "shortDescription": "Advogada autista de 27 anos busca sucesso em faculdade de direito, enfrentando desafios únicos.",
+    "description": "Na série Uma Advogada Extraordinária, Woo Young Woo é uma advogada autista, destacando-se por seu QI de 164. Criada por um pai solteiro e sofrendo bullying na escola, ela encontra refúgio na amizade de uma única colega. Como adulta, sua excelência profissional na advocacia contrasta com suas dificuldades sociais. Embora seja considerada estranha e solitária, sua memória fotográfica e inteligência a levam a trabalhar em casos criminais desafiadores. A narrativa centra-se no desenvolvimento de Young Woo, tanto como profissional quanto como indivíduo, à medida que ela enfrenta suas limitações sociais e se conecta com pessoas que transformam sua vida.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTAzNzlhYjItN2MxZS00ZTg4LWFmZGQtN2I1ZWE5YjgzODY3XkEyXkFqcGdeQXVyNjk1NzU1Mjk@.jpg",
     "facts": {
-      "yearOfBirth": "1939",
-      "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
+      "doramaRating": 8.6,
+      "doramaGender": "Drama",
+      "doramaAno": 2022
     }
   },
   {
-    "id": "grace-hopper",
-    "name": "Grace Hopper",
-    "shortDescription": "Científica de la computación, creadora del primer compilador.",
-    "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
+    "id": "vincenzo",
+    "name": "Vincenzo",
+    "shortDescription": "Advogado da máfia coreano-italiana busca justiça contra conglomerado poderoso em mistura de ação e intriga legal.",
+    "description": "Vincenzo narra a jornada de Vincenzo Cassano, um advogado coreano criado na Itália após ser adotado por uma família mafiosa. Ao retornar à Coreia do Sul, ele decide se vingar de seus inimigos do passado, travando uma perigosa batalha contra um cartel local. Com o apoio da advogada Hong Cha-young e seu estagiário Jang Jun-woo, Vincenzo enfrenta desafios inimagináveis, enquanto um romance floresce entre ele e Hong. Unidos, eles lutam contra a corrupção e buscam fazer justiça com suas próprias mãos, determinados a derrotar seus adversários a qualquer custo.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BYWIwYTg2Y2YtYzEwNy00Y2Y0LWFkZjktNjBlMWZhNDY2NGE0XkEyXkFqcGdeQXVyNDY5MjMyNTg@.jpg",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1992",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
+      "doramaRating": 8.4,
+      "doramaGender": "Ação",
+      "doramaAno": 2021
     }
   },
   {
-    "id": "margaret-hamilton",
-    "name": "Margaret Hamilton",
-    "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
-    "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
+    "id": "alquimia-das-almas",
+    "name": "Alquimia das Almas",
+    "shortDescription": "Destino distorcido devido a hwanhonsool. Jornada repleta de ação explora reviravoltas do destino.",
+    "description": "Destino distorcido devido a hwanhonsool. Jornada repleta de ação explora reviravoltas do destino.",
+    "description": "Em Alquimia das Almas, entramos no mundo fictício de Daeho, onde Jang Wook, herdeiro da nobre família Jang e conhecido como o maior encrenqueiro do reino, enfrenta boatos sobre sua origem. Seu destino se entrelaça com Deok Yi, guerreira de elite cuja alma habita um corpo frágil. Enquanto ela o treina secretamente, a trama também apresenta a família Seo, destacando Seo Yool, elogiado por sua beleza e habilidades marciais. Em paralelo, o príncipe coroado Go Won almeja tornar-se um rei generoso para Daeho, prometendo uma história envolvente repleta de segredos e desafios.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BMmJhZGFhMmItM2RmMC00NWIxLWE5ZjMtMmIwZmJkNTdjZTg4XkEyXkFqcGdeQXVyOTI5NDk4NDQ@.jpg",
     "facts": {
-      "yearOfBirth": "1936",
-      "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
+      "doramaRating": 8.8,
+      "doramaGender": "Ação",
+      "doramaAno": 2022
     }
   },
   {
-    "id": "radia-perlman",
-    "name": "Radia Perlman",
-    "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
-    "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
+    "id": "d-p-dog-day",
+    "name": "D.P Dog Day",
+    "shortDescription": "Soldado captura desertores, revelando dolorosa realidade do dever militar.",
+    "description": "Série dramática coreana original da Netflix, acompanha o jovem Joon-ho An (Jung Hae-in), um soldado introvertido que é designado para uma importante missão na unidade Deserter Pursuit. Ele deve ir atrás dos desertores militares e trazê-los de volta à base para que sejam julgados e punidos. Entretanto, durante essa complicada e perigosa jornada, o jovem soldado enfrenta as verdadeiras dificuldades da vida militar. Em contato com a realidade de sua missão, Joon-ho An entra em uma complexa reflexão sobre a injustiça do alistamento obrigatório e começa a compreender a decisão dos desertores em desistir do exército e fugir.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BOTM2NjQyZDQtNmM1YS00MWQwLTk0MmYtNTc3N2ViNTEyNzk0XkEyXkFqcGdeQXVyNjgyMTI1MDE@.jpg",
     "facts": {
-      "yearOfBirth": "1951",
-      "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
+      "doramaRating": 8.2,
+      "doramaGender": "Ação",
+      "doramaAno": 2021
     }
   },
   {
-    "id": "shafi-goldwasser",
-    "name": "Shafi Goldwasser",
-    "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
-    "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
+    "id": "caes-de-caca",
+    "name": "Cães de Caça",
+    "shortDescription": "Dois jovens boxeadores e agiota derrotam concorrente desonesto, enfrentando adversidades no mundo do boxe.",
+    "description": "Move to Heaven se desenrola em Seul, centrando-se nos boxeadores amadores Geon-woo e Woo-jin. Após um encontro no ringue, uma amizade floresce, fundamentada no respeito mútuo e nas histórias de vida compartilhadas. Geon-woo enfrenta uma crise quando sua mãe é vítima de agiotas da Smile Capital, deixando-a com uma dívida esmagadora. A intervenção de Woo-jin leva-os ao presidente Choi, ex-agiota agora bilionário filantrópico, que quita a dívida em troca de proteção para sua neta adotiva, Heyon-ju. Enquanto cumprem essa missão, desenterram segredos comprometedores da Smile Capital, liderada por Kim Myeong-gil, antigo protegido de Choi",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BZTlhZGQyZWYtODM4MS00YTFlLTgxMTItODcyOGJjMTVhYjE0XkEyXkFqcGdeQXVyNjI4NDY5ODM@.jpg",
     "facts": {
-      "yearOfBirth": "1958",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
+      "doramaRating": 8.1,
+      "doramaGender": "Ação",
+      "doramaAno": 2023
     }
   },
   {
-    "id": "chien-shiung-wu",
-    "name": "Chien-Shiung Wu",
-    "shortDescription": "Física experimental, contribuyó a la física nuclear.",
-    "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
+    "id": "meu-demonio-favorito",
+    "name": "Meu Demônio Favorito",
+    "shortDescription": "Do Do Hee, sucessora do Grupo Futuro, faz contrato de casamento com demônio. Ação e romance se entrelaçam.",
+    "description": "Em Meu Demônio Favorito, um demônio perde seus poderes e precisa se unir a uma garota humana mimada para recuperá-los. No dorama, Jeong Gu-won (Song Kang) é um demônio que garante sua vida eterna ao fazer acordos duvidosos com humanos para alimentar seus poderes. Ele considera os humanos seres inferiores mas, ao se envolver com os assuntos de Do Do-hee (Kim You-jung), uma desconfiada e arrogante herdeira, tudo muda. O demônio perde seus poderes e precisa estabelecer um novo acordo para recuperá-los, mas a paixão que floresce entre os dois pode colocar tudo o que acredita em risco.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BYjQ0NWYwMmYtYTA5OC00ODQ3LTkwODItZDU3NjY1YjM1ZTliXkEyXkFqcGdeQXVyNjI4NDY5ODM@.jpg",
     "facts": {
-      "yearOfBirth": "1912",
-      "yearOfDeath": "1997",
-      "birthPlace": "Liuhe, Taicang, China",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
+      "doramaRating": 7.9,
+      "doramaGender": "Ação",
+      "doramaAno": 2023
     }
   },
   {
-    "id": "hedy-lamarr",
-    "name": "Hedy Lamarr",
-    "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
-    "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
+    "id": "desgraca-ao-seu-dispor",
+    "name": "Desgraça ao Seu Dispor",
+    "shortDescription": "Tak Dong Kyung vive vida normal até destino inesperado e contrato de 100 dias com Myul Mang, arriscando tudo.",
+    "description": "Park Bo-young, ao receber um diagnóstico terminal, faz um pedido egoísta para que o mundo caia em desgraça. Surpreendentemente, Myul Mang, a personificação da desgraça, aparece, tornando realidade seu desejo com eventos catastróficos. Bo-young, descobrindo a imortalidade de Myul Mang, busca conquistá-lo, ansiando compartilhar essa condição. No entanto, a entidade, aparentemente carente de emoções humanas, torna o plano desafiador. A narrativa explora a busca por amor em meio a desafios sobrenaturais, revelando a complexidade da relação entre Bo-young e Myul Mang.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BNTZkYTA0MjUtZTA2Ni00ODE4LThlMjQtMmQxODEyODk1NGM2XkEyXkFqcGdeQXVyNDU4MDQ0MjM@.jpg",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "2000",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Actuación, Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.sparkfun.com/news/6147"
+      "doramaRating": 7.9,
+      "doramaGender": "Ação",
+      "doramaAno": 2021
     }
   },
   {
-    "id": "maria-goeppert-mayer",
-    "name": "Maria Goeppert Mayer",
-    "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
-    "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
+    "id": "trinta-nove",
+    "name": "Trinta nove",
+    "shortDescription": "Três pessoas prestes a completar os 40 anos equilibrarão a vida, o trabalho e os relacionamentos.",
+    "description": "O dorama acompanha um trio de melhores amigas que vivem juntas a experiência transformadora de chegar aos 40 anos. Em Trinta e Nove, Cha Mi-jo (Son Ye-jin) é uma dermatologista que nunca passou necessidades e foi criada por uma família bem estruturada em um lar acolhedor. Já Jeong Chan-young (Jeon Mi-do), que sempre sonhou em se tornar uma grande atriz, acabou se prendendo à profissão de professora de teatro. Por fim, conhecemos Jang Joo-hee (Kim Ji-hyun) uma gerente de loja de cosméticos que, por ser muito tímida, é pouco experiente quando se trata de relacionamentos.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BYmNmNDYwOTEtODVmZC00ZGJhLWE1NGMtNDJhNzBmMzk4YjM1XkEyXkFqcGdeQXVyMTA2NTg2Njg2.jpg",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1972",
-      "birthPlace": "Kattowitz, Alemania",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
+      "doramaRating": 7.7,
+      "doramaGender": "Drama",
+      "doramaAno": 2022
     }
   },
   {
-    "id": "lise-meitner",
-    "name": "Lise Meitner",
-    "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
-    "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
+    "id": "a-licao",
+    "name": "A lição",
+    "shortDescription": "Uma mulher vive em busca de uma vingança absoluta contra os valentões de sua infância que destruíram sua vida.",
+    "description": "Moon Dong-eun (Song Hye-kyo), professora que enfrentou abusos na infância, planeja vingança elaborada contra seus agressores de alta classe, incluindo Park Yeon-jin (Lim Ji-yeon). Determinada a puni-los, envolve a cirurgiã Ju Yeo-jeong (Lee Do-hyun), a empregada Kang Hyeon-nam (Yeom Hye-ran) e o agressor Jeon Jae-joon (Park Sung-hoon). Com reviravoltas emocionantes, a trama destaca temas de justiça e retaliação, com Song Hye-kyo e um elenco diversificado, incluindo Jung Ji-so, explorando as questões profundas enquanto Moon Dong-eun busca reparação por seu passado traumático.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjdlNWFkYjEtZTFlNC00MTM1LWExNjktMzM3NDU5NDJmNjk2XkEyXkFqcGdeQXVyNDYzNDg2MTM@.jpg",
     "facts": {
-      "yearOfBirth": "1878",
-      "yearOfDeath": "1968",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
+      "doramaRating": 8.1,
+      "doramaGender": "Drama",
+      "doramaAno": 2022
     }
   },
   {
-    "id": "sau-lan-wu",
-    "name": "Sau Lan Wu",
-    "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
-    "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
+    "id": "snowdrop",
+    "name": "Snowdrop",
+    "shortDescription": "Snowdrop ocorre em 1987, destacando o Movimento Democrático. Soo-ho, estudante misterioso, e Yeong-ro desenvolvem romance em meio à agitação política.",
+    "description": "Snowdrop se passa em 1987, durante o Movimento Democrático na Coreia do Sul. Lim Soo-ho (Jung Hae-in), um estudante de pós-graduação, é descoberto ensanguentado por Eun Yeong-ro (Jisoo), estudante universitária, que o protege do governo em seu dormitório. A trama, ambientada no cenário do Movimento Democrático, revela que Soo-ho esconde segredos. Em meio à agitação política, a história da dupla se desenrola, culminando em um romance tenso e intrigante. O drama abrange novembro e dezembro de 1987, destacando eventos cruciais que levaram à transição da Quinta para a Sexta República da Coreia.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BMGZlNTU4MGItMzk1Yy00MmVkLThiMDItNTMxNjMyYmI0ZDc0XkEyXkFqcGdeQXVyMTI1Mzg0ODA5.jpg",
     "facts": {
-      "yearOfBirth": "1940",
-      "birthPlace": "Hong Kong, China",
-      "mainField": "Física de Partículas"
-    },
-    "extraInfo": {
-      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
+      "doramaRating": 8.1,
+      "doramaGender": "Drama",
+      "doramaAno": 2021
     }
   },
   {
-    "id": "jocelyn-bell-burnell",
-    "name": "Jocelyn Bell Burnell",
-    "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
-    "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
+    "id": "round-6",
+    "name": "Round 6",
+    "shortDescription": "Jogadores aceitam convite mortal com prêmio milionário.",
+    "description": "Jogadores aceitam convite mortal com prêmio milionário.",
+    "description": "Série sul-coreana original da Netflix, acompanha um grupo de pessoas desesperadas por dinheiro que recebem um misterioso convite para participar de jogos competitivos inspirados em brincadeiras infantis. Sem saber qualquer coisa sobre o convite, centenas de pessoas comparecem ao local para participar do evento. Ao final do jogo, o vencedor poderá levar para casa um prêmio milionário e resolver todas as suas dívidas. Porém, o que eles não sabem é que os perdedores não saírão vivos desse jogo. Agora os competidores precisarão lutar para sobreviver a essa macabra disputa.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BYWE3MDVkN2EtNjQ5MS00ZDQ4LTliNzYtMjc2YWMzMDEwMTA3XkEyXkFqcGdeQXVyMTEzMTI1Mjk3.jpg",
     "facts": {
-      "yearOfBirth": "1943",
-      "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica"
-    },
-    "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
+      "doramaRating": 8.0,
+      "doramaGender": "Ação",
+      "doramaAno": 2021
     }
   },
   {
-    "id": "dorothy-crowfoot-hodgkin",
-    "name": "Dorothy Crowfoot Hodgkin",
-    "shortDescription": "Química, ganadora del Premio Nobel de Química.",
-    "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
+    "id": "extracurricular",
+    "name": "Extracurricular",
+    "shortDescription": "Modelo colegial tem vida dupla com segredo revelado",
+    "description": "Oh Ji Soo (Kim Dong Hee) parece um simples e típico aluno de ensino médio. Ele é tímido, nada sociável e sempre tira as notas mais altas. No entanto, ele guarda um segredo que jamais deveria ser revelado. Oji administra um negócio perigoso de namoro compensado. Em um aplicativo chamado Doggo, Oh Ji Soo tem uma lista de clientes e mulheres disponíveis para programas em um grupo de conversa. Em troca de uma parte do dinheiro que elas recebem, Oji e seu sócio oferecem segurança para as mesmas",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BYzg0NjMyOTYtNjAyNi00MmFkLWExMjQtOGRhMDA0MmNlNjdhXkEyXkFqcGdeQXVyMTMxODk2OTU@.jpg",
     "facts": {
-      "yearOfBirth": "1910",
-      "yearOfDeath": "1994",
-      "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-      "mainField": "Química"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
+      "doramaRating": 7.6,
+      "doramaGender": "Ação",
+      "doramaAno": 2020,
     }
   },
   {
-    "id": "marie-curie",
-    "name": "Marie Curie",
-    "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
-    "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
+    "id": "somebody",
+    "name": "Somebody",
+    "shortDescription": "Assassinato ligado ao app Somebody.",
+    "description": "A trama gira em torno de Sum, uma desenvolvedora de um aplicativo de encontros chamado Somebody. Seu mundo vira de cabeça para baixo quando descobre que o app está vinculado a uma série de assassinatos. Os crimes têm início quando o arquiteto Yoon-o usa o aplicativo para conhecer Rose, levando-a a um encontro fatal. Ao perceber a conexão sinistra, Sum une forças com uma amiga detetive para desvendar os crimes. Contudo, ela se vê enredada nos mistérios e se aproxima mais do arquiteto do que planejava, desencadeando uma trama envolvente de suspense e romance.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BYzM3YjUwMmQtZjRiNS00OTZkLTk0ZjktOWY2NmU0YjYyYWIyXkEyXkFqcGdeQXVyODAzMTg2NzU@.jpg",
     "facts": {
-      "yearOfBirth": "1867",
-      "yearOfDeath": "1934",
-      "birthPlace": "Varsovia, Polonia",
-      "mainField": "Física y Química"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
+      "doramaRating": 6.0,
+      "doramaGender": "Ação",
+      "doramaAno": 2022
     }
   },
   {
-    "id": "marjory-stephenson",
-    "name": "Marjory Stephenson",
-    "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
-    "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
+    "id": "hometown-cha-cha-cha",
+    "name": "Hometown cha cha cha",
+    "shortDescription": "Dentista na vila, oposta a faz-tudo charmoso.",
+    "description": "Dentista na vila, oposta a faz-tudo charmoso.",
+    "description": "Yoon Hye Jin, dotada de beleza e inteligência, vê seu plano de vida desabar devido à retidão em seu coração. Diante de obstáculos, muda-se para a vila costeira de Gongjin, onde encontra Hong Doo Shik. Embora oficialmente desempregado, Doo Shik é um mestre dos biscates, prontamente auxiliando todos em Gongjin. O encontro entre eles promete desvendar desafios e criar laços na vila. Handy Man, Mr. Hong é um remake do filme de 2004, prometendo uma trama envolvente repleta de humor e calor humano.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BM2U3N2E5N2QtZDM1OC00N2QxLThjOTgtZmQ0OWRiYTUwZTAyXkEyXkFqcGdeQXVyNDY5MjMyNTg@.jpg",
     "facts": {
-      "yearOfBirth": "1885",
-      "yearOfDeath": "1948",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Microbiología, Bioquímica"
-    },
-    "extraInfo": {
-      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
+      "doramaRating": 8.4,
+      "doramaGender": "Comédia",
+      "doramaAno": 2011
     }
   },
   {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
+    "id": "as-tres-irmas",
+    "name": "As três irmãs",
+    "shortDescription": "Três irmãs enfrentam família rica após incidente.",
+    "description": "A história se concentra em três irmãs muito próximas umas das outras, que cresceram com poucas condições financeiras, mas que após se envolverem num acidente, vão precisar bater de frente simplesmente com uma das famílias mais poderosas da nação. Aqui acompanhamos Kim Go Eun no papel de Oh In Joo, a irmã mais velha que faz de tudo para proteger a sua família. Após crescer em uma zona de pobreza extrema, seu único sonho é poder viver como pessoas normais, mas um acidente no caminho irá mudar completamente os rumos da sua vida.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BMzRlZjkwOWEtMjBhMy00NmM3LWFkMzgtYTFmODIyMWFhNDkyXkEyXkFqcGdeQXVyMTUzOTcyODA5.jpg",
     "facts": {
-      "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
-    },
-    "extraInfo": {
-      "imageSource": ""
+      "doramaRating": 7.8,
+      "doramaGender": "Ação",
+      "doramaAno": 2022
     }
-  }
+  },
 ];

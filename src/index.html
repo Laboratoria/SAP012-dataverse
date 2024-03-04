@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Dataverse</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <script src="main.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dataverse</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Dorameiras de plantão!</h1>
+  </header>
+  <script src="main.js" type="module"></script>
+  <main>
+    <h2>Meus doramas favoritos!</h2>
+    <section class="container_section">
+      <!-- sessao de filtros -->
+      <label for="filter">Gênero</label>
+      <select id="filter" name="filter" data-testid="select_filter">
+        <option value="Drama">Drama</option>
+        <option value="Romance">Romance</option>
+        <option value="Ação">Ação</option>
+        <option value="Comédia">Comédia</option>
+      </select>
+      <!-- sessao de ordenacao -->
+      <label for="order">Ordenação</label>
+      <select id="order" name="sort_order" data-testid="select_sort">
+        <option value="asc">A-Z</option>
+        <option value="desc">Z-A</option>
+      </select>
+      <!-- botao limpar -->
+      <button data-testid="button_clear">Limpar</button>
+    </section>
+    <span class="calculo_estatistica"></span>
+    <section id="root">
+    </section>
+  </main>
+  <footer>Desenvolvido por: Bárbara Mascena e Maiara Seixas.</footer>
+</body>
+
 </html>
